@@ -1,0 +1,39 @@
+(root㉿kali)-[~]
+└─# history 
+    1  useradd DEEM -c "HR Specialist" -e 2025-1-1
+    2  useradd KHALID -c "Finance, Manager" -e 2025-1-1
+    3  passwd KHALID 
+    4  passwd DEEM 
+    5  useradd NORAH -c "Finance, Spicialist" -e 2025-1-1
+    6  passwd NORAH
+    7  useradd RANEEM -c "Sales representative" -e 2025-1-1
+    8  passwd RANEEM
+    9  useradd AHMED -c "Shippping" -e 2025-1-1
+   10  passwd AHMED
+   11  useradd OUDI -c "Shippping" -e 2025-1-1
+   12  passwd OUDI
+   13  useradd ABDULAZIZ -c "Shippping" -e 2025-1-1
+   14  passwd ABDULAZIZ
+   15  useradd NAIF -c "Sales representative" -e 2025-1-1
+   16  passwd NAIF
+   17  useradd MOHAMMED -c "Shipping" -e 2025-1-1
+   18  passwd MOHAMMED
+   19  useradd HANAN -c "Sales representative" -e 2025-1-1
+   20  passwd HANAN
+   21  usermod KHALID -c "Finance, Managr, HR Specialist" -e 2025-1-1
+   22  groupadd HR -p alibabastudent001
+   23  groupadd CEO -p alibabastudent001
+   24  groupadd SALES -p alibabastudent001
+   25  groupadd SHIPPING
+   26  groupadd MANAGER
+   27  groupadd FINANCE
+   28  for user in DEEM GHADA KHALID ALI RAGHED; do sudo usermod -a -G HR "$us
+   29  for user in DEEM KHALID Ali RAGED; do sudo usermod -a -G HR "$user"; do
+   30  for user SALEM ; do sudo usermod -a -G CEO "$user"; done
+   31  for user OUDI MOHAMMED ABDULAZIZ AHMED ; do sudo usermod -a -G SHIPPINGe
+   32  for user in KHALID NORAH ; do sudo usermod -a -G FINANCE "$user"; done
+   33  cat etc/passwd 
+   34  cat /etc/passwd 
+   35  cat /etc/group
+   36  cat /etcshadow
+   37  cat /etc/shadow
