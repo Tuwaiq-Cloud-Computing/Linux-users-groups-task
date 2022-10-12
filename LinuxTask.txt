@@ -1,0 +1,103 @@
+                                                                                                                                                                                                                                                                          
+┌──(root㉿kali)-[~]
+└─# history
+    1  useradd Ali -c "HR Manager" -e 2025-1-1
+    2  usermod Ali -c "HR Manager" -e 2025-1-1 
+    3  usermod Salem -c "CEO" -e 
+    4  usermod Salem -c "CEO"  
+    5  usermod Raghed -c "HR Specialist" -e 2025-1-1
+    6  usermod Sarah -c "Sales Representative" -e 2025-1-1
+    7  usermod Abdullah -c "Shipping" -e 2025-1-1
+    8  usermod Deem -c "HR specialist" -e 2025-1-1
+    9  usermod Khalid -c "Finance Manager" -e 2025-1-1
+   10  usermod Norah -c "Finance Specialist" -e 2025-1-1
+   11  usermod Raneem -c "Sales representative" -e 2025-1-1
+   12  usermod Ahmed -c "Shipping" -e 2025-1-1
+   13  usermod Oudi -c "Shipping" -e 2025-1-1
+   14  usermod Abdulaziz -c "Shipping" -e 2025-1-1
+   15  usermod Naif -c "Sales Representative" -e 2025-1-1
+   16  usermod Ghada -c "HR Manager" -e 2025-1-1
+   17  usermod Mohammed -c "Shipping" -e 2025-1-1
+   18  usermod Hanan -c "Sales Representative" -e 2025-1-1
+   19  sudo passwd Ali
+   20  sudo passwd Salem
+   21  sudo passwd Raghed
+   22  sudo passwd Sarah
+   23  sudo passwd Abdullah
+   24  sudo passwd Deem
+   25  sudo passwd Khalid
+   26  sudo passwd Norah
+   27  sudo passwd Raneem
+   28  sudo passwd Ahmed
+   29  sudo passwd Oudi
+   30  sudo passwd Abdulaziz
+   31  sudo passwd Naif
+   32  sudo passwd Ghada
+   33  sudo passwd Mohammed
+   34  sudo passwd Hanan
+   35  sudo groupadd -p Alibabastudent001 HR
+   36  sudo groupadd -p Alibabastudent001 CEO
+   37  sudo groupadd -p Alibabastudent001 Sales
+   38  sudo groupadd Shipping
+   39  sudo groupadd Manager
+   40  sudo groupadd Finance
+   41  sudo usermod -a -G HR Deem
+   42  sudo usermod -a -G HR Ghada
+   43  sudo usermod -a -G HR Khalid
+   44  sudo usermod -a -G HR Ali
+   45  sudo usermod -a -G HR Raghed
+   46  sudo usermod -a -G CEO Salem
+   47  sudo usermod -a -G Sales Hanan
+   48  sudo usermod -a -G Sales Naif
+   49  sudo usermod -a -G Sales Raneem
+   50  sudo usermod -a -G Sales Sarah
+   51  sudo usermod -a -G Shipping Oudi
+   52  sudo usermod -a -G Shipping Mohammed
+   53  sudo usermod -a -G Shipping Abdulaziz
+   54  sudo usermod -a -G Shipping Ahmed
+   55  sudo usermod -a -G Manager Ghada
+   56  sudo usermod -a -G Manager Ali
+   57  sudo usermod -a -G Finance Norah
+   58  cat /etc/passwd
+   59  cat /etc/group
+   60  cat /etc/shadow
+
+┌──(kali㉿kali)-[~]
+└─$ history
+    1  
+    2  whoami
+    3  hostname
+    4  w 
+    5  history
+    6  whoami
+    7  date 
+    8  date Dubai
+    9  cal 
+   10  cd log.txt
+   11  mkdir log.txt
+   12  echo 'there is an error'
+   13  cal
+   14  sudo apt update
+   15  sudo apt upgrade
+   16  cal 
+   17  cat
+   18  uptime
+   19  TZ="Asia/Subai" Date
+   20  date
+   21  time
+   22  TZ="Asia/Dubai"
+   23  Time
+   24  wc -w
+   25  wc -w php.ini
+   26  w 
+   27  wc -w   
+   28  wc ruba.txt
+   29  touch Ruba.txt
+   30  cat Ruba.txt
+   31  > Ruba.txt
+   32  wc Ruba.txt
+   33  ls
+   34  cd root
+   35  cd ~
+   36  ls
+            
