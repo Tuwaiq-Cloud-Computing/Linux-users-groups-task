@@ -1,0 +1,43 @@
+ 121  gpasswd  -m DEEM,GHADA,KHALID,ALI,RAGHED HR 
+  122  gpasswd  -M DEEM,GHADA,KHALID,ALI,RAGHED HR 
+  123  sudo gpasswd -M DEEM,GHADA,KHALID,ALI,RAGHED HR
+  124  gpasswd -M DEEM,GHADA,KHALID,ALI,RAGHED HR
+  125  sudo gpasswd -M DEEM,GHADA,KHALID,ALI,RAGHED HR
+  126  kali
+  127  sudo gpasswd -M DEEM,GHADA,KHALID,ALI,RAGHED HR
+  128  sudo gpasswd -M SALEM CEO
+  129  sudo gpasswd -M HANAN,NAIF,RANEEM,SARAH SALES
+  130  sudo gpasswd -M OUDI,MOHAMMED,ABDULAZIZ,AHMED SHIPPING
+  131  sudo gpasswd -M KHALLID,GHADA,ALI MANAGER
+  132  sudo gpasswd -M KHALID,GHADA,ALI MANAGER
+  133  sudo gpasswd -M KHALID,NORAH FINANCE
+  134  cat /etc/passwd
+  135  /etc/group
+  136  sudo /etc/group
+  137  sudo /etc/gshadow
+  138  sudo gpasswd -M KHALID,NORAH FINANCE
+  139  sudo /etc/group
+  140  sudo cat  /etc/group
+  141  group
+  142  groups
+  143  groups -user
+  144  groups user
+  145  groups kali
+  146  groups
+  147  sudo cat  /etc/group
+  148  sudo gpasswd CEO 
+  149  sudo gpasswd HR 
+  150  sudo gpasswd SALES
+  151  sudo /etc/passwd
+  152  sudo /etc/shadow
+  153  /etc/shadow
+  154  /etc/group
+  155  sudo /etc/group
+  156  sudo cat/etc/shadow
+  157  sudo cat /etc/shadow
+  158  sudo cat /etc/group
+  159  sudo cat /etc/passwd
+  160  history
+  161  sudo cat /etc/shadow
+  162  sudo cat /etc/passwd
+  163  sudo cat /etc/group
