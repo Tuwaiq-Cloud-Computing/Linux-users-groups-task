@@ -15,6 +15,7 @@
   - Create 6 groups and add each user to its respective group.
   - Add this password **Alibabastudent001** to CEO,HR, and SALES groups 
 
+
 /etc/group content:
 ![image](https://user-images.githubusercontent.com/114053471/195334760-2c41c434-38da-4933-85f6-16822eeac9a5.png)
 
@@ -107,3 +108,4 @@ history:
    79  cat /etc/group
    80  history
                  
+
