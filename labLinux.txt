@@ -1,0 +1,60 @@
+history
+    1  exit
+    2  groupadd HR CEO SALES SHIPPING MANAGER FINANCE
+    3  groupadd HR 
+    4  groupadd CEO
+    5  groupadd SALES
+    6  groupadd SHIPING
+    7  groupadd MANAGER
+    8  groupadd FINANCE
+    9  tail /etc/group
+   10  useradd ALI -c "HR,MANAGER" -e 2025-1-1
+   11  useradd SALEM -c "CEO" -e 2025-1-1
+   12  useradd SALEM -c "HR Specialist" -e 2025-1-1
+   13  useradd RAGHED -c "HR Specialist" -e 2025-1-1
+   14  useradd SARAH -c "Sales representative" -e 2025-1-1
+   15  useradd ABDULLAH -c "Shipping" -e 2025-1-1
+   16  useradd DEEM -c "HR specialist" -e 2025-1-1
+   17  useradd KHALID -c "Finance,Manager,HR Specialist" -e 2025-1-1
+   18  useradd NORAH -c "Finance Specialist" -e 2025-1-1
+   19  useradd RANEEM -c "Sales representative" -e 2025-1-1
+   20  useradd AHMED -c "Shipping" -e 2025-1-1
+   21  useradd OUDI -c "Shipping" -e 2025-1-1
+   22  useradd ABDULAZIZ -c "Shipping" -e 2025-1-1
+   23  useradd NAIF -c "Sales representative" -e 2025-1-1
+   24  useradd GHADA -c "HR,Manager" -e 2025-1-1
+   25  useradd MOHAMMED -c "shipping" -e 2025-1-1
+   26  useradd HANAN -c "Sales representative" -e 2025-1-1
+   27  or user in DEEM  GHADA  KHALID ALI RAGHED; do sudo usermod -a -G HR "$user"; done\n
+   28  for user in DEEM  GHADA  KHALID ALI RAGHED; do sudo usermod -a -G HR "$user"; done\n
+   29  groups KHALID
+   30  for user in SALEM ; do sudo usermod -a -G CEO "$user"; done\n
+   31  groups SALEM
+   32  for user in HANAN NAIF RANEEM SARAH ; do sudo usermod -a -G SALES "$user"; done\n
+   33  for user in OUDI MOHAMMED ABDULAZIZ AHMED ; do sudo usermod -a -G SHIPPING "$user"; done\n
+   34  for user in OUDI MOHAMMED ABDULAZIZ AHMED ; do sudo usermod -a -G Shipping "$user"; done\n
+   35  for user in OUDI MOHAMMED ABDULAZIZ AHMED ; do sudo usermod -a -G shipping "$user"; done\n
+   36  for user in OUDI MOHAMMED ABDULAZIZ AHMED ; do sudo usermod -a -G SHIPING "$user"; done\n
+   37  for user in KHALID GHADA ALI ; do sudo usermod -a -G MANAGER "$user"; done\n
+   38  for user in KHALID NORAH ; do sudo usermod -a -G FINANCE "$user"; done\n
+   39  passwd ALI
+   40  passwd DEEM
+   41  passwd OUDI
+   42  passwd KHALID
+   43  passwd MOHAMMED
+   44  passwd ABDULAZIZ
+   45  passwd AHMED
+   46  passwd GHADA
+   47  passwd RAGHED
+   48  passwd SARAH
+   49  passwd SALEM
+   50  passwd HANAN
+   51  passwd NAIF
+   52  passwd RANEEM
+   53  passwd NORAH
+   54  gpasswd HR
+   55  gpasswd CEO
+   56  gpasswd SALES
+   57  cat /etc/passwd
+   58  cat /etc/shadow
+   59  cat /etc/group
