@@ -1,0 +1,114 @@
+   78  sudo ALI -p alibaba@S1
+   79  sudo useradd ALI -p alibaba@S1
+   80  sudo usermod -c 'HR, Manager' ALI
+   81  tail -n 5 /etc/passwd
+   82  sudo useradd SALEM -p alibaba@S1 -c CEO
+   83  tail -n 5 /etc/passwd
+   84  sudo useradd SALEM -p alibaba@S1 -c HR Specialist -e 2025-1-1
+   85  sudo useradd SALEM -p alibaba@S1 -c HR Specialist
+   86  tail -n 5 /etc/passwd
+   87  sudo useradd RAGHED -p alibaba@S1 -c HR Specialist
+   88  tail -n 5 /etc/passwd
+   89  sudo useradd RAGHED -p alibaba@S1 -c HR Specialist
+   90  id
+   91  nano
+   92  sudo useradd SARAH -p alibaba@S1 -c Sales, representative
+   93  sudo useradd SARAH -p alibaba@S1 -c "Sales representative"
+   94  tail -n 5 /etc/passwd
+   95  sudo useradd RAGHED -p alibaba@S1 -c "HR Specialist"
+   96  sudo useradd ABDULLAH -p alibaba@S1 -c "Shipping"
+   97  sudo useradd DEEM -p alibaba@S1 -c "HR Specialist"
+   98  sudo useradd KHALID -p alibaba@S1 -c "Finance Manager"
+   99  sudo useradd NORAH -p alibaba@S1 -c "Finance Specialist"
+  100  sudo useradd KHALID -p alibaba@S1 -c "HR Specilist" -e 2025-1-1
+  101  sudo useradd KHALID2 -p alibaba@S1 -c "HR Specilist" -e 2025-1-1
+  102  tail -n 5 /etc/passwd
+  103  tail -n  /etc/passwd
+  104  tail -n 10 /etc/passwd
+  105  sudo useradd RANEEM -p alibaba@S1 -c "Sales representative" -e 2025-1-1
+  106  sudo useradd AHMED -p alibaba@S1 -c "Shipping" -e 2025-1-1
+  107  sudo useradd ABDULAZIZ -p alibaba@S1 -c "Shipping" -e 2025-1-1
+  108  sudo useradd NAIF -p alibaba@S1 -c "Shipping" -e 2025-1-1
+  109  sudo useradd GHADA -p alibaba@S1 -c "Shipping" -e 2025-1-1
+  110  sudo usermod -c 'Sales representative' NAIF
+  111  sudo usermod -c 'HR Manager' GHADA
+  112  sudo useradd MOHAMMED -p alibaba@S1 -c "Shipping" -e 2025-1-1
+  113  sudo useradd HANAN -p alibaba@S1 -c "Sales represntative" -e 2025-1-1
+  114  tail -n 20 /etc/passwd
+  115  net user
+  116  net DOMAIN
+  117  net NAIF /domain
+  118  net user NAIF /domain
+  119  sudo chage -l NAIF
+  120  sudo chage -l HANAN
+  121  sudo chage -l ALI
+  122  man groupmod
+  123  cat shadow
+  124  cat etc/shadow
+  125  cat /etc/shadow
+  126  sudo cat /etc/shadow
+  127  sudo groupadd HR
+  128  sudo groupadd CEO
+  129  sudo groupadd SALES
+  130  sudo groupadd SHIPPING
+  131  sudo groupadd MANAGER
+  132  sudo groupadd FINANCE
+  133  sudo groupmod -passwd Alibabastudent001 HR
+  134  sudo groupmod -p Alibabastudent001 HR
+  135  sudo cat /etc/shadow
+  136  sudo groupmod -passwd Alibabastudent001 CEO
+  137  sudo groupmod -p Alibabastudent001 CEO
+  138  sudo groupmod -p Alibabastudent001 fff
+  139  sudo usermod -a -G CEO SALEM
+  140  sudo usermod -a -G HR DEEM
+  141  sudo usermod -a -G HR GHADA
+  142  sudo usermod -a -G HR KHALID
+  143  sudo usermod -a -G HR ALI
+  144  sudo usermod -a -G HR RAGHED
+  145  sudo usermod -a -G SALES HANAN
+  146  sudo usermod -a -G SALES NAIF
+  147  sudo usermod -a -G SALES RANEEM
+  148  sudo usermod -a -G SALES SARAH
+  149  sudo usermod -a -G SHIPPING OUDI
+  150  sudo useradd OUDI -p alibaba@S1 -c "Shipping" -e 2025-1-1
+  151  sudo usermod -a -G SHIPPING OUDI
+  152  sudo usermod -a -G SHIPPING MOHAMMED
+  153  sudo usermod -a -G SHIPPING ABDULAZIZ
+  154  sudo usermod -a -G SHIPPING AHMED
+  155  sudo usermod -a -G MANAGER KHALID
+  156  sudo usermod -a -G MANAGER GHADA
+  157  sudo usermod -a -G MANAGER ALI
+  158  sudo usermod -a -G FINANCE KHALID
+  159  sudo usermod -a -G FINANCE NORAH
+  160  sudo cat /etc/shadow
+  161  sudo cat /etc/group
+  162  sudo cat /etc/shadow/group
+  163  sudo passwd DEEM 
+  164  sudo passwd ALI,SALEM,RAGHED 
+  165  sudo passwd "ALI""SALEM"
+  166  sudo passwd SALEM
+  167  sudo passwd RAGHED
+  168  cat /etc/shadow
+  169  sudo cat /etc/shadow
+  170  sudo passwd SARAH
+  171  sudo passwd ABDULLAH
+  172  sudo passwd KHALID
+  173  sudo passwd NORAH
+  174  sudo passwd KHALID2
+  175  sudo passwd RANEEM
+  176  sudo passwd AHMED
+  177  sudo passwd OUDI
+  178  sudo passwd ABDULAZIZ
+  179  sudo passwd NAIF
+  180  sudo passwd GHADA
+  181  sudo passwd MOHAMMED
+  182  sudo passwd HANAN
+  183  sudo cat /etc/shadow
+  184  sudo passwd ALI
+  185  sudo cat /etc/shadow
+  186  sudo cat /etc/passwd
+  187  sudo cat /etc/shadow
+  188  sudo cat /etc/group
+  189  hstory
+  190  history
+  191  cat history
