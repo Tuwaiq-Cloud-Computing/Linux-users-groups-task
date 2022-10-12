@@ -1,4 +1,8 @@
-![ss333](https://user-images.githubusercontent.com/113862309/195349596-f1ac2bba-992f-45e0-bed3-108d486c74cb.png)
-![Ss222](https://user-images.githubusercontent.com/113862309/195349609-39af3a60-d201-4d78-84b0-f385521b767d.png)
-![ss111](https://user-images.githubusercontent.com/113862309/195349619-85b1d949-be57-4b9b-8dfc-9b99184d063b.png)
 [text.txt](https://github.com/Faisaltu14/Linux-users-groups-task/files/9765043/text.txt)
+
+
+
+
+![ss111](https://user-images.githubusercontent.com/113862309/195351137-9375a940-b7cc-4b34-a7fd-fad548eb99af.png)
+![Ss222](https://user-images.githubusercontent.com/113862309/195351154-c56ae099-fdd3-4e16-aca0-b7ba8318038f.png)
+![ss333](https://user-images.githubusercontent.com/113862309/195351159-8557b157-35cc-4539-a7ac-cc34e495f725.png)
