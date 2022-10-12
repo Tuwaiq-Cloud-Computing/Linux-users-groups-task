@@ -1,0 +1,165 @@
+1- use 1  
+    2  man
+    3  man man
+    4  ptint("oudy")
+    5  print
+    6  clean
+    7  clear
+    8  ls
+    9  li
+   10  sa
+   11  inpout
+   12  input
+   13  man man
+   14  man -l
+   15  man man
+   16  ls
+   17  cd
+   18  cd Desktop
+   19  man man
+   20  man -l
+   21  man man
+   22  man ls
+   23  man -h
+   24  man man.7
+   25  man man.b
+   26  man.b
+   27  man-db
+   28  mandb
+   29  sudo apt update
+   30  sudo apt upgrade
+   31  cal
+   32  cd Des;
+   33  cd Desktop
+   34  cd .
+   35  cd ..
+   36  cd .
+   37  cd Desktop
+   38  cd ..
+   39  cd .
+   40  cd ~
+   41  cd Desktop
+   42  ls -a
+   43  ls
+   44  touch calender
+   45  touch logs
+   46  cat touch logs
+   47  cat logs
+   48  cat test1.txt
+   49  cat logs.txt
+   50  cat poutput.fa.txt
+   51  less Desktop/test1.txt
+   52  head -n /etc/passwd
+   53  head -n 5 /etc/passwd
+   54  man man
+   55  clear
+   56  sudo useradd ALI
+   57  sudo passwd ALI
+   58  sudo useradd -c "HR, manger" ALI
+   59  sudo useradd -e 2025/1/1 ALI
+   60  cat /etc/passwd
+   61  sudo useradd SALEM
+   62  cat /etc/passwd
+   63  sudo useradd -c "CEO" SALEM
+   64  sudo passwd SALEM
+   65  Newusers
+   66  sudo Newusers
+   67  sudo vim users.txt
+   68  sudo newusers user_deatils.txt
+   69  sudo newusers users.txt
+   70  sudo chmod 0600 users.txt
+   71  cat /etc/passwd
+   72  sudo newusers users.txt
+   73  cat /etc/passwd
+   74  sudo groupadd HR
+   75  groupadd -f HR
+   76  cat groupadd -f HR
+   77  sudo groupadd HR
+   78  groupadd -f HR
+   79  cat groupadd -f HR
+   80  sudo groupadd -f HR
+   81  getent group | grep HR
+   82  sudo groupadd CEO
+   83  sudo groupadd SALES
+   84  sudo groupadd SHPPING
+   85  sudo groupadd MANAGER
+   86  sudo groupadd FINANCE
+   87  getent group 
+   88  userdel ALI
+   89  sudo userdel ALI
+   90  sudo userdel SALEM
+   91  sudo userdel RAGHED
+   92  getent group 
+   93  history
+   94  clear
+   95  sudo chmod 0600 users.txt
+   96  sudo newusers users.txt
+   97  cat /etc/passwd
+   98  cat /etc/group
+   99  cat /etc/shadow
+  100  sudo /etc/shadow
+  101  history
+  102  sudo useradd -e 2025/1/1 ALI
+  103  sudo useradd -e 2025/1/1 RAGHED
+  104  sudo useradd -e 2025/1/1 ABDULLAH
+  105  sudo useradd -e 2025/1/1 DEEM
+  106  sudo useradd -e 2025/1/1 KHALID
+  107  sudo useradd -e 2025/1/1 RANEEM
+  108  sudo useradd -e 2025/1/1 AHMED
+  109  sudo useradd -e 2025/1/1 OUDI
+  110  sudo useradd -e 2025/1/1 ABDULAZIZ
+  111  sudo useradd -e 2025/1/1 NAIF
+  112  sudo useradd -e 2025/1/1 ffff
+  113  sudo useradd -e 2025/1/1 GHADA
+  114  sudo useradd -e 2025/1/1 MOHAMMED
+  115  sudo useradd -e 2025/1/1 HANAN
+  116  cat /etc/shadow
+  117  sudo /etc/shadow
+  118  sudo cat /etc/shadow
+  119  clear
+  120  cat /etc/passwd
+  121  cat /etc/shadow
+  122  sudo cat /etc/shadow
+  123  clear
+  124  cat /etc/group
+  125  R:x:1004:
+  126  sudo chmod 0600 users.txt
+  127  sudo newusers users.txt
+  128  cat /etc/group
+  129  sudo chmod 0600 users.txt
+  130  sudo newusers users.txt
+  131  cat /etc/group
+  132  sudo chmod 0600 users.txt
+  133  sudo newusers users.txt
+  134  cat /etc/group
+  135  usermod -aG HR ALI
+  136  sudo usermod -aG HR ALI
+  137  cat /etc/group
+  138  sudo usermod -aG HR DEEM
+  139  sudo usermod -aG HR GHADA
+  140  sudo usermod -aG HR KHALID
+  141  sudo usermod -aG HR RAGHED
+  142  sudo usermod -aG CEO SALEM
+  143  sudo usermod -aG SALES HANAN
+  144  sudo usermod -aG SALES NAIF
+  145  sudo usermod -aG SALES RANEEM
+  146  sudo usermod -aG SALES SARAH
+  147  sudo usermod -aG SHIPPING OUDI
+  148  sudo usermod -aG SHPPING OUDI
+  149  sudo usermod -aG SHPPING MOHAMMED
+  150  sudo usermod -aG SHPPING ABDULAZIZ
+  151  sudo usermod -aG SHPPING AHMED
+  152  sudo usermod -aG MANGER KHALID
+  153  sudo usermod -aG MANAGER KHALID
+  154  sudo usermod -aG MANAGER GHADA
+  155  sudo usermod -aG MANAGER ALI
+  156  sudo usermod -aG MANAGER KHALID
+  157  sudo usermod -aG MANAGER NORAH
+  158  cat /etc/group
+  159  sudo usermod -aG FINANCE KHALID
+  160  sudo usermod -aG FINANCE NORAH
+  161  clear
+  162  cat /etc/passwd
+  163  sudo cat /etc/shadow
+  164  cat /etc/group
+__________________
