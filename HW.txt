@@ -1,0 +1,67 @@
+sudo useradd  -c "HR, MANAGER", -G HR,MANAGER -e 2025-1-1  ALI  &&  sudo  passwd  ALI
+   85  sudo groupadd "HR"
+   86  sudo useradd  -c "HR, MANAGER", -G HR,MANAGER -e 2025-1-1  ALI  &&  sudo  passwd  ALI
+   87  sudo groupadd "Manger"
+   88  sudo useradd  -c "HR, MANAGER", -G HR,MANAGER -e 2025-1-1  ALI  &&  sudo  passwd  ALI
+   89  sudo groupadd "MANGER"
+   90  sudo useradd  -c "HR, MANAGER", -G HR,MANAGER -e 2025-1-1  ALI  &&  sudo  passwd  ALI
+   91  sudo groupadd 'ceo'
+   92  sudo groupadd "HR,MANGER"
+   93  sudo groupadd HR,MANGER
+   94  sudo groupadd HR MANGER
+   95  sudo groupadd HR,Manger
+   96  cat /etc/group
+   97  sudo useradd  -c "HR, MANAGER", -G MANAGER -e 2025-1-1  ALI  &&  sudo  passwd  ALI
+   98  sudo useradd  -c "HR, MANAGER", -G HR -e 2025-1-1  ALI  &&  sudo  passwd  ALI
+   99  cat /etc/group
+  100  sudo useradd  -c "HR, MANAGER", -G MANAGER -e 2025-1-1  GHADA  &&  sudo  passwd  GHADA
+  101  sudo useradd  -c "HR, MANAGER", -G HR  -e 2025-1-1  GHADA  &&  sudo  passwd  GHADA
+  102  cat /etc/group
+  103  sudo useradd  -c "HR,Specialist", -G HR  -e 2025-1-1  RAGHED  &&  sudo  passwd  RAGHED
+  104  sudo useradd  -c "HR,Specialist", -G HR  -e 2025-1-1  DEEM  &&  sudo  passwd  DEEM
+  105  sudo useradd  -c "CEO", -G CEO  -e 2025-1-1  SALEM  &&  sudo  passwd SALEM
+  106  sudo groupadd " CEO"
+  107  sudo groupadd  CEO
+  108  sudo useradd  -c "CEO", -G CEO  -e 2025-1-1  SALEM  &&  sudo  passwd SALEM
+  109  sudo groupadd  SALES
+  110  sudo groupadd SHIPPING
+  111  sudo groupadd MANGER
+  112  sudo groupadd FINANCE
+  113  sudo useradd  -c "Sales,Repreesntative", -G SALES  -e 2025-1-1  SARAH  &&  sudo  passwd SARAH
+  114  sudo passwd SALES
+  115  sudo passwd SARAH
+  116  sudo useradd  -c "Sales,Repreesntative", -G SALES  -e 2025-1-1  RANEEM  &&  sudo  passwd RANEEM
+  117  sudo useradd  -c "Sales,Repreesntative", -G SALES  -e 2025-1-1  NAIF  &&  sudo  passwd NAIF
+  118  sudo useradd  -c "Sales,Repreesntative", -G SALES  -e 2025-1-1  HANAN  &&  sudo  passwd HANAN
+  119  sudo useradd  -c "SHIPPING", -G SHIPPING  -e 2025-1-1  ABDULLAH  &&  sudo  passwd ABDULLAH
+  120  sudo useradd  -c "SHIPPING", -G SHIPPING  -e 2025-1-1  AHMED  &&  sudo  passwd AHMED
+  121  sudo useradd  -c "SHIPPING", -G SHIPPING  -e 2025-1-1  OUDI  &&  sudo  passwd OUDI
+  122  sudo useradd  -c "SHIPPING", -G SHIPPING  -e 2025-1-1  ABDULAZIZ  &&  sudo  passwd ABUDLAZIZ
+  123  sudo useradd  -c "SHIPPING", -G SHIPPING  -e 2025-1-1  ABDULAZIZ  &&  sudo  passwd ABDULAZIZ
+  124  sudo useradd  -c "SHIPPING", -G SHIPPING  -e 2025-1-1  MOHAMMED  &&  sudo  passwd MOHAMMED
+  125  cat /etc/group
+  126  sudo useradd  -c "FINANCE,MANGER ", -G FINANCE  -e 2025-1-1  KHALID  &&  sudo  passwd KHALID
+  127  cat /etc/group
+  128  sudo useradd  -c "HR, MANAGER", -G MANAGER -e 2025-1-1  ALI  &&  sudo  passwd  ALI
+  129  sudo groupadd MANGER
+  130  sudo useradd  -c "HR, MANAGER", -G MANAGER -e 2025-1-1  ALI  &&  sudo  passwd  ALI
+  131  sudo groupadd MANGER
+  132  sudo groupadd MANAGER
+  133  sudo useradd  -c "HR, MANAGER", -G MANAGER -e 2025-1-1  ALI  &&  sudo  passwd  ALI
+  134  sudo userdel ali
+  135  userdel ali
+  136  userdel ALI
+  137  sudo useradd  -c "HR, MANAGER", -G MANAGER,HR -e 2025-1-1  ALI  &&  sudo  passwd  ALI
+  138  userdel GHADA
+  139  sudo useradd  -c "HR, MANAGER", -G HR,MANGER  -e 2025-1-1  GHADA  &&  sudo  passwd  GHADA
+  140  userdel KHALID
+  141  sudo useradd  -c "FINANCE,MANGER ", -G FINANCE,MANAGER  -e 2025-1-1  KHALID  &&  sudo  passwd KHALID
+  142  cat /etc/group
+  143  userdel ABUDLLAH
+  144  userdel ABDULLAH
+  145  cat /etc/group
+  146  sudo useradd  -c "HR, MANAGER", -G MANAGER,HR -e 2025-1-1  GHADA  &&  sudo  passwd  GHADA
+  147  userdel GHADA
+  148  sudo useradd  -c "HR, MANAGER", -G MANAGER,HR -e 2025-1-1  GHADA  &&  sudo  passwd  GHADA
+  149  cat /etc/group
+  150  sudo useradd  -c "FINANCE SPECIALIST", -G FINANCE -e 2025-1-1  NORAH  &&  sudo  passwd  NORAH
