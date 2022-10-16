@@ -1,0 +1,359 @@
+    1  pwd
+    2  ls
+    3  cd Downloads
+    4  ls
+    5  cd
+    6  clear
+    7  sudo yum update
+    8  sudo apt update
+    9  sudo apt update -y & sudo apt upgrade -y
+   10  sudo apt update -y
+   11  sudo apt update
+   12  clear
+   13  sudo apt update
+   14  sudo apt upgrade
+   15  sudo apt update
+   16  reboot
+   17  sudo apt update
+   18  sudo apt upgrade
+   19  s=s=s=s=sssssss=s=s=s=s=s=s====
+   20  ==========
+   21  s=s=s=s=s=s=s=s=s=
+   22  s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=
+   23  s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=
+   24  s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=
+   25  ++++
+   26  cd /var/www/html
+   27  sudo cp git clone https://github.com/digininja/DVWA.git
+   28  sudo clone git clone https://github.com/digininja/DVWA.git
+   29  sudo git clone https://github.com/digininja/DVWA.git
+   30  sudo vm DVWA dvwa
+   31  sudo mv DVWA dvwa
+   32  clear
+   33  ls
+   34  sudo chmod -R 777 dvwa
+   35  sudo cp dvwa/config/config.inc.php.dist dvwa/config/config.inc.php
+   36  clear
+   37  man man
+   38  man history
+   39  man cal
+   40  cleasr
+   41  clear
+   42  apt update\napt install -y apache2 mariadb-server mariadb-client php php-mysqli php-gd libapache2-mod-php
+   43  sudo apt update\napt install -y apache2 mariadb-server mariadb-client php php-mysqli php-gd libapache2-mod-php
+   44  sudo apt update
+   45  sudo apt install -y apache2 mariadb-server mariadb-client php php-mysqli php-gd libapache2-mod-php
+   46  clear
+   47  sudo mysql
+   48  sudo serive mysql start
+   49  sudo service mysql start
+   50  sudo mysql
+   51  clear
+   52  sudo vim dvwa/config/config.inc.php
+   53  cd /etc/apache2
+   54  ls
+   55  cat apache2.conf
+   56  cd /etc/php
+   57  ls
+   58  cd 8.1
+   59  ls
+   60  cd apache2
+   61  ls
+   62  sudo vim php.ini
+   63  clear
+   64  cal
+   65  sudo vim php.ini
+   66  sudo systemctl start apache2
+   67  sudo systemctl enable apache2
+   68  cd Desktop
+   69  touch create.py
+   70  reboot
+   71  cd Desktop
+   72  python3 create.py
+   73  cat /etc/passwd
+   74  s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=s=
+   75  cat /etc/passwd
+   76  rm create.py
+   77  vim create.py
+   78  cat /etc/passwd
+   79  python3 create.py
+   80  cat /etc/passwd
+   81  rm create.py
+   82  vim create.py
+   83  python3 create.py
+   84  cat /etc/passwd
+   85  clear
+   86  pip3 list
+   87  pip3 list | grep os
+   88  pip3 install os-sys
+   89  cd Desktop
+   90  python3 create.py
+   91  rm create.py
+   92  vim create.py
+   93  python3 create.py
+   94  rm create.py
+   95  vim create.py
+   96  python3 create.py
+   97  rm create.py
+   98  vim create.py
+   99  python3 create.py
+  100  vim create.py
+  101  rm create.py
+  102  vim create.py
+  103  python3 create.py
+  104  cat /etc/passwd
+  105  cat /etc/shadow
+  106  sudo cat /etc/shadow
+  107  pycharm
+  108  sudo apt search py
+  109  sudo apt search python
+  110  sudo apt search python | grep pycharm
+  111  sudo apt search pycharm
+  112  sudo apt search vcs
+  113  vim createbysubprocess.py
+  114  python3 createbysubprocess.py
+  115  rm createbysubprocess.py
+  116  vim createbysubprocess.py
+  117  python3 createbysubprocess.py
+  118  rm createbysubprocess.py
+  119  vim createbysubprocess.py
+  120  python3 createbysubprocess.py
+  121  cat /etc/shadow
+  122  sudo cat /etc/shadow
+  123  sudo cat /etc/passwd
+  124  clear
+  125  ^[[200~sudo mkdir -p ~/mydir/mydir2~
+  126  sudo mkdir -p ~/mydir/mydir2
+  127  ls
+  128  cd
+  129  ls
+  130  sudo touch ~/mydir/mydir2/yourname.txt\n
+  131  cp /tmp/log/secure ~/mydir/securecopy.txt
+  132  sudo cp /tmp/log/secure ~/mydir/securecopy.txt
+  133  clear
+  134  ls
+  135  cd mydir
+  136  ls
+  137  cd mydir2
+  138  ls
+  139  ]cd
+  140  cd
+  141  clear
+  142  sudo cp /tmp/log/secure ~/mydir/securecopy.txt
+  143  clear
+  144  sudo cp /tmp/log/secure ~/mydir/securecopy.txt
+  145  cd /tmp/
+  146  ls
+  147  cd /tmp/VMware
+  148  cd /tmp/VMwareDnD
+  149  ls
+  150  cd..
+  151  cd.
+  152  lsa
+  153  ls
+  154  cd .
+  155  cd ..
+  156  ls
+  157  cd /var/log
+  158  ls
+  159  cat syslog
+  160  pwd
+  161  cleat
+  162  ls
+  163  cat syslog
+  164  pwd
+  165  clear
+  166  ls
+  167  cp /var/log/syslog  ~/mydir/securecopy.txt\n
+  168  clear
+  169  hash
+  170  clear
+  171  cp /var/log/syslog  ~/mydir/securecopy.txt
+  172  sudo cp /var/log/syslog  ~/mydir/securecopy.txt
+  173  hash
+  174  clear
+  175  ls
+  176  cd
+  177  ls
+  178  cd mydir/mydir2
+  179  ls
+  180  hash
+  181  tail yourname.txt
+  182  tail hash
+  183  clear
+  184  hasg
+  185  hash
+  186  cleasr
+  187  clear
+  188  hash
+  189  clear
+  190  hash
+  191  cksum yourname.txt
+  192  nano ~/mydir/securecopy.txt
+  193  nano securecopy.txt
+  194  ls
+  195  cd
+  196  cd mydir
+  197  ls
+  198  cat securecopy.txt
+  199  sudo nano securecopy.txt
+  200  cksum securecopy.txt
+  201  sudo cksum securecopy.txt
+  202  sudo rm securecopy.txt
+  203  history
+  204  sudo cp /var/log/syslog  ~/mydir/securecopy.txt
+  205  sudo cksum securecopy.txt
+  206  nano securecopy.txt
+  207  sudo nano securecopy.txt
+  208  sudo cksum securecopy.txt
+  209  hash
+  210  man hash
+  211  man hash | grep number
+  212  ind . -name "yourname.txt"
+  213  find . -name "yourname.txt"
+  214  find . -iname "yourname.txt"
+  215  clear
+  216  find . -iname "yourname.txt"
+  217  man useradd
+  218  man useradd >> useradd-man.txt
+  219  sudo man useradd >> useradd-man.txt
+  220  sudo man useradd > useradd-man.txt
+  221  man useradd > useradd-man.txt
+  222  sudo man useradd > useradd-man.txt
+  223  clear
+  224  man useradd > useradd-man.txt
+  225  man useradd 0> useradd-man.txt
+  226  sudo man useradd 0> useradd-man.txt
+  227  su -s
+  228  su -
+  229  sudo -s
+  230  cd Desktop
+  231  python3 groups.py
+  232  cd Do
+  233  cd Downloads
+  234  cd Desktop
+  235  ls
+  236  cd
+  237  cd Desktop
+  238  ls
+  239  python3 groups.py
+  240  OA
+  241  clear
+  242  cat /etc/groups
+  243  cat /etc/group
+  244  python3 groups.py
+  245  cat /etc/group
+  246  python3 groups.py
+  247  vim newgroup.py
+  248  python3 newgroup.py
+  249  cat /etc/group
+  250  cd Desktop
+  251  python3 groups.py
+  252  getent
+  253  getent group
+  254  pip install getent
+  255  pip3 install getent
+  256  clear
+  257  pip3 install getent
+  258  ls
+  259  python3 test.py
+  260  ^[OA
+  261  python3 test.py
+  262  python3 groups.py
+  263  python3 test.py
+  264  python3 groups.py
+  265  python3 groups.py\
+  266  python3 groups.py
+  267  vim test.py
+  268  python3 test.py
+  269  vim test.py
+  270  python3 test.py
+  271  clear
+  272  python3 test.py
+  273  clrsrf
+  274  clear
+  275  clrsrf
+  276  python3 test.py
+  277  python3 test2.py
+  278  python3 tesgt2.py
+  279  clear
+  280  python3 tesgt2.py
+  281  python groups.py
+  282  python test.py
+  283  cat /etc/group
+  284  cd Desktop
+  285  python3 test.py
+  286  python3 create.py
+  287  python3 test.py
+  288  clear
+  289  python3 groups.py
+  290  cat /etc/group
+  291  clear history
+  292  history
+  293  clear
+  294  history
+  295  python3 test.py
+  296  python3 create.py
+  297  cat /etc/group
+  298  python3 groups.py
+  299  cat /etc/shadow
+  300  sudo /etc/shadow
+  301  sudo cat /etc/shadow
+  302  ^[[200~usermod -a -G examplegroup exampleusername
+  303  ~cleear
+  304  clear
+  305  history -c
+  306  usermod -a -G HR DEEM, GHADA, KHALID, ALI, RAGHED
+  307  CLEAR
+  308  clear
+  309  usermod -a -G HR DEEM
+  310  sudo usermod -a -G HR DEEM
+  311  usermod -a -G HR DEEM, GHADA, KHALID, ALI, RAGHED
+  312  usermod -a -G HR ghada
+  313  usermod -a -G HR GHADA
+  314  sudo usermod -a -G HR GHADA
+  315  sudo usermod -a -G HR KHALID
+  316  sudo usermod -a -G HR ALI
+  317  cat /etc/group
+  318  sudo usermod -a -G HR Ali
+  319  sudo usermod -a -G HR raghed
+  320  sudo usermod -a -G HR Raghed
+  321  sudo usermod -a -G HR RAGHED
+  322  sudo usermod -a -G CEO SALEM
+  323  sudo usermod -a -G SALES HANAN
+  324  sudo usermod -a -G Sales
+  325  sudo usermod -a -G Sales Hanan
+  326  sudo usermod -a -G Sales HANAN
+  327  NAIF
+  328  sudo usermod -a -G Sales NAIF
+  329  sudo usermod -a -G Sales RANEEM
+  330  sudo usermod -a -G Sales SARAH
+  331  sudo usermod -a -G SHIPPING OUDI
+  332  sudo usermod -a -G Shiping OUDI
+  333  sudo usermod -a -G Shiping Mohammed
+  334  sudo usermod -a -G Shiping MOHAMMED
+  335  sudo usermod -a -G Shiping ABDULAZIZ
+  336  sudo usermod -a -G Shiping AHMED
+  337  sudo usermod -a -G Manaser Khalid
+  338  sudo usermod -a -G Manager Khalid
+  339  sudo usermod -a -G Manager KHALID
+  340  sudo usermod -a -G Manager GHADA
+  341  ALI
+  342  sudo usermod -a -G Manager ALI
+  343  sudo usermod -a -G Manager Ali
+  344  sudo usermod -a -G Finance khalid
+  345  sudo usermod -a -G Finance KHALID
+  346  sudo usermod -a -G Finance NORAH
+  347  groupmod -p `openssl Alibabastudent001 -1` CEO\n
+  348  groupmod -p `openssl CEO -1` Alibabastudent001
+  349  gpassword CEO
+  350  gpasswd CEO
+  351  sudo gpasswd CEO
+  352  sudo gpasswd HR
+  353  sudo gpasswd sales
+  354  sudo gpasswd Sales
+  355  clear
+  356  cat /etc/group
+  357  cat /etc/shadow
+  358  sudo cat /etc/shadow
+  359  history
