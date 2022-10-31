@@ -1,0 +1,757 @@
+    1  sudo apt update
+    2  sudo install apache2
+    3  sudo apt install apache2
+    4  systemctl status apach2
+    5  sudo apt update
+    6  clear
+    7  ls
+    8  mkdir name{0..20}
+    9  ls
+   10  rmdir name{0..20}
+   11  ls
+   12  touch n{0..2}
+   13  ls
+   14  man sort 
+   15  ls sort
+   16  ls -r
+   17  man cut
+   18  touch file.txt
+   19  echo "My name is Hudaiban" >> file.txt 
+   20  cat file.txt 
+   21  clear 
+   22  sed 's/Hudaiban/Ahmed'
+   23  sed 's/Hudaiban/Ahmed '
+   24  sed 's/Hudaiban/Ahmed 'file.txt
+   25  sed 's/Hudaiban/Ahmed/' file.txt
+   26  cat file.txt 
+   27  sed man
+   28  man sed
+   29  sed -i 's/Hudaiban/Ahmed/' file.txt
+   30  cat file.txt 
+   31  sed -i 's/Ahmed/Hudaiban/' file.txt
+   32  ls
+   33  echo "hudaiban hudaiban hudaiban hudaiban" >> file.txt 
+   34  sed -i 's/hudaiban/Hudaiban/' file.txt
+   35  clear
+   36  exit
+   37  mkdir TQ
+   38  cd TQ
+   39  git 
+   40  sudo install git
+   41  sudo apt install git
+   42  git clone https://github.com/Tuwaiq-Cloud-Computing/Linux-working-with-advance-commands-task.git
+   43  ls
+   44  cd Linux-working-with-advance-commands-task/
+   45  mkdir advance_command_lab;cd advance_command_lab;{ echo ' Ali, 1, Riyadh;' echo ' Saad, 2, Jeddah;' echo ' Waleed, 3, Dammam;' echo ' Noura, 4, Makkah;' echo ' Sarah, 5, Yanbu;' } >> students.csv;{ echo ' Ali-Ahmad;' echo ' Ali-Khaled;' echo ' Waleed-Fahad;' echo ' Noura-Saad;' echo ' Sarah-Mohammed;' } >> names.csv; { echo ' Ali, 1, Dammamm;' echo ' Saad, 2, Dammam;' echo ' Waleed, 3, Al-Dammam;' echo ' Noura, 4, al-dammam;' echo ' Sarah, 5, al-dammamm;' } >> raw_data.csv; y
+   46  clear 
+   47  $name = hudaiban
+   48  $name=hudaiban
+   49  $name="hudaiban"
+   50  man $
+   51  clear
+   52  name="hudaiban"
+   53  echo name
+   54  $name=hudaiban
+   55  hudaiban
+   56  ls
+   57  cd TQ
+   58  git clone https://github.com/hudaiban/Linux-working-with-advance-commands-task.git
+   59  $name=hudaiban
+   60  ls
+   61  name=hudaiban
+   62  echo name
+   63  echo $name
+   64  cd
+   65  env 
+   66  echo $User
+   67  echo $USER
+   68  clear
+   69  export name=Hudaiban
+   70  echo $name
+   71  env | grep name
+   72  open -a Files
+   73  wopen -a Files
+   74  pen -a Files
+   75  alias 
+   76  touch scripti.sh
+   77  nano scripti.sh 
+   78  sudo apt-get install imagemagic
+   79  sudo apt-get install gthumb
+   80  cd TQ/
+   81  cd Linux-working-with-advance-commands-task/
+   82  git add .
+   83  $?
+   84  ?
+   85  ls
+   86  ?
+   87  car sss
+   88  echo $?
+   89  cd ..
+   90  mkdir bashScript
+   91  cd bashScript/
+   92  open -a firefox 
+   93  sudo apt-get open 
+   94  clear
+   95  touch isGreater.sh
+   96  nano isGreater.sh 
+   97  cat isGreater.sh 
+   98  ./isGreater.sh
+   99  chmod +x isGreater.sh 
+  100  ./isGreater.sh
+  101  nano isGreater.sh 
+  102  ./isGreater.sh
+  103  nano isGreater.sh 
+  104  ./isGreater.sh
+  105  nano isGreater.sh 
+  106  ./isGreater.sh
+  107  nano isGreater.sh 
+  108  ./isGreater.sh
+  109  nano isGreater.sh 
+  110  ./isGreater.sh
+  111  nano isGreater.sh 
+  112  ./isGreater.sh
+  113  nano isGreater.sh 
+  114  ./isGreater.sh
+  115  nano isGreater.sh 
+  116  ./isGreater.sh
+  117  nano isGreater.sh 
+  118  ./isGreater.sh
+  119  nano isGreater.sh 
+  120  ./isGreater.sh
+  121  nano isGreater.sh 
+  122  ./isGreater.sh
+  123  nano isGreater.sh 
+  124  ./isGreater.sh
+  125  nano isGreater.sh 
+  126  ./isGreater.sh
+  127  nano isGreater.sh 
+  128  ./isGreater.sh
+  129  nano isGreater.sh 
+  130  ./isGreater.sh
+  131  nano isGreater.sh 
+  132  ./isGreater.sh
+  133  nano isGreater.sh 
+  134  ./isGreater.sh
+  135  nano isGreater.sh 
+  136  ./isGreater.sh
+  137  nano isGreater.sh 
+  138  ./isGreater.sh
+  139  nano isGreater.sh 
+  140  ./isGreater.sh
+  141  nano isGreater.sh 
+  142  ./isGreater.sh 3
+  143  ./isGreater.sh 7
+  144  nano isGreater.sh 
+  145  ./isGreater.sh 2
+  146  ./isGreater.sh 
+  147  ./isGreater.sh 2
+  148  nano isGreater.sh 
+  149  ./isGreater.sh 2
+  150  ./isGreater.sh 5
+  151  nano isGreater.sh 
+  152  clear
+  153  cd ..
+  154  ls
+  155  git clone https://github.com/hudaiban/Bash-Scripting-Task.git
+  156  clear
+  157  cd Bash-Scripting-Task/
+  158  touch userUID.sh 
+  159  man bash
+  160  nano userUID.sh 
+  161  ./userUID.sh
+  162  chomd -x userUID.sh
+  163  chmod -x userUID.sh
+  164  ./userUID.sh
+  165  sudo chmod -x userUID.sh 
+  166  ./userUID.sh
+  167  su -
+  168  bash su -
+  169  ./userUID.sh
+  170  sudo ./userUID.sh
+  171  cd ..
+  172  ls
+  173  cd bashScript/
+  174  ls
+  175  nano isGreater.sh 
+  176  cd..
+  177  cd ..
+  178  cd Bash-Scripting-Task/
+  179  nano userUID.sh 
+  180  ./userUID.sh
+  181  sh install userUID.sh 
+  182  sh userUID.sh 
+  183  nano userUID.sh 
+  184  clear
+  185  sh userUID.sh 
+  186  sudo cat /etc/passwd
+  187  clear
+  188  nano userUID.sh 
+  189  sh userUID.sh 
+  190  sudo cat /etc/passwd
+  191  ps
+  192  clear
+  193  sudo -u 
+  194  man UID
+  195  UID
+  196  id
+  197  man id
+  198  id -u
+  199  id -n
+  200  id 1000 -n
+  201  man id
+  202  nano userUID.sh 
+  203  id -u -n
+  204  id  -n
+  205  touch userID_succe_indicate.sh
+  206  nano userUID.sh 
+  207  nano userID_succe_indicate.sh 
+  208  sh userID_succe_indicate.sh 
+  209  nano userID_succe_indicate.sh 
+  210  sh userID_succe_indicate.sh 
+  211  nano userID_succe_indicate.sh 
+  212  sh userID_succe_indicate.sh 
+  213  nano userID_succe_indicate.sh 
+  214  sh userID_succe_indicate.sh 
+  215  nano userID_succe_indicate.sh 
+  216  sh userID_succe_indicate.sh 
+  217  nano userID_succe_indicate.sh 
+  218  sh userID_succe_indicate.sh 
+  219  nano userID_succe_indicate.sh 
+  220  sh userID_succe_indicate.sh 
+  221  nano userID_succe_indicate.sh 
+  222  sh userID_succe_indicate.sh 
+  223  nano userID_succe_indicate.sh 
+  224  sh userID_succe_indicate.sh 
+  225  nano userID_succe_indicate.sh 
+  226  sh userID_succe_indicate.sh 
+  227  nano userID_succe_indicate.sh 
+  228  sh userID_succe_indicate.sh 
+  229  nano userID_succe_indicate.sh 
+  230  sh userID_succe_indicate.sh 
+  231  nano userID_succe_indicate.sh 
+  232  sh userID_succe_indicate.sh 
+  233  clear
+  234  sh userUID.sh 
+  235  sh userID_succe_indicate.sh 
+  236  nano userID_succe_indicate.sh 
+  237  sh userUID.sh 
+  238  sh userID_succe_indicate.sh 
+  239  nano userID_succe_indicate.sh 
+  240  sh userUID.sh 
+  241  nano userID_succe_indicate.sh 
+  242  clear
+  243  sh userUID.sh 
+  244  nano userID_succe_indicate.sh 
+  245  clear
+  246  sh userUID.sh 
+  247  sh userID_succe_indicate.sh 
+  248  nano userID_succe_indicate.sh 
+  249  nano userUID.sh 
+  250  nano userID_succe_indicate.sh 
+  251  sh userUID.sh 
+  252  sh userID_succe_indicate.sh 
+  253  nano userID_succe_indicate.sh 
+  254  sh userID_succe_indicate.sh 
+  255  nano userID_succe_indicate.sh 
+  256  clear 
+  257  sh userUID.sh 
+  258  sh userID_succe_indicate.sh 
+  259  who
+  260  touch whoIsLoggedIn.sh
+  261  nano whoIsLoggedIn.sh
+  262  sh whoIsLoggedIn.sh
+  263  nano whoIsLoggedIn.sh
+  264  sh whoIsLoggedIn.sh
+  265  users
+  266  nano whoIsLoggedIn.sh
+  267  sh whoIsLoggedIn.sh
+  268  nano whoIsLoggedIn.sh
+  269  sh whoIsLoggedIn.sh
+  270  nano whoIsLoggedIn.sh
+  271  sh whoIsLoggedIn.sh
+  272  nano whoIsLoggedIn.sh
+  273  sh whoIsLoggedIn.sh
+  274  nano whoIsLoggedIn.sh
+  275  sh whoIsLoggedIn.sh
+  276  clear
+  277  nano whoIsLoggedIn.sh
+  278  sh whoIsLoggedIn.sh
+  279  clear
+  280  touch bashToCreateUser.sh
+  281  nano bashToCreateUser.sh
+  282  nano whoIsLoggedIn.sh
+  283  touch isTheRoot.sh
+  284  nano isTheRoot.sh 
+  285  sh isTheRoot.sh 
+  286  nano isTheRoot.sh 
+  287  sh isTheRoot.sh 
+  288  nano bashToCreateUser.sh 
+  289  sh bashToCreateUser.sh 
+  290  nano bashToCreateUser.sh 
+  291  sh bashToCreateUser.sh 
+  292  nano bashToCreateUser.sh 
+  293  clear
+  294  sh bashToCreateUser.sh 
+  295  nano bashToCreateUser.sh 
+  296  sh bashToCreateUser.sh 
+  297  nano bashToCreateUser.sh 
+  298  sh bashToCreateUser.sh 
+  299  nano bashToCreateUser.sh 
+  300  sh bashToCreateUser.sh 
+  301  nano bashToCreateUser.sh 
+  302  sh bashToCreateUser.sh 
+  303  nano bashToCreateUser.sh 
+  304  sh bashToCreateUser.sh 
+  305  nano bashToCreateUser.sh 
+  306  sh bashToCreateUser.sh 
+  307  nano bashToCreateUser.sh 
+  308  sh bashToCreateUser.sh 
+  309  clear
+  310  nano bashToCreateUser.sh 
+  311  sh bashToCreateUser.sh 
+  312  nano bashToCreateUser.sh 
+  313  clear
+  314  nano bashToCreateUser.sh 
+  315  sh bashToCreateUser.sh 
+  316  clear
+  317  ls
+  318  nano isTheRoot.sh 
+  319  sh isTheRoot.sh 
+  320  whoami
+  321  root
+  322  nano isTheRoot.sh 
+  323  sh isTheRoot.sh 
+  324  clear
+  325  sh isTheRoot.sh 
+  326  crontab -e
+  327  pwd
+  328  crontab -e
+  329  watch 
+  330  ls
+  331  crontab -e
+  332  ls
+  333  crontab -e
+  334  ls
+  335  clear
+  336  ls
+  337  cat script.txt 
+  338  crontab -e
+  339  echo "Hello" + "Hi"
+  340  echo "Hello"  "Hi"
+  341  mkdir advance_command_lab;cd advance_command_lab
+  342  echo ' Ali, 1, Riyadh;' echo ' Saad, 2, Jeddah;' echo ' Waleed, 3, Dammam;' echo ' Noura, 4, Makkah;' echo ' Sarah, 5, Yanbu;' } >> students.csv;{ echo ' Ali-Ahmad;' echo ' Ali-Khaled;' echo ' Waleed-Fahad;' echo ' Noura-Saad;' echo ' Sarah-Mohammed;' } >> names.csv; { echo ' Ali, 1, Dammamm;' echo ' Saad, 2, Dammam;' echo ' Waleed, 3, Al-Dammam;' echo ' Noura, 4, al-dammam;' echo ' Sarah, 5, al-dammamm;' } >> raw_data.csv; 
+  343  ls
+  344  echo ' Ali, 1, Riyadh;' echo ' Saad, 2, Jeddah;' echo ' Waleed, 3, Dammam;' echo ' Noura, 4, Makkah;' echo ' Sarah, 5, Yanbu;' } >> students.csv;
+  345  echo ' Ali-Ahmad;' echo ' Ali-Khaled;' echo ' Waleed-Fahad;' echo ' Noura-Saad;' echo ' Sarah-Mohammed;' } >> names.csv;
+  346  echo ' Ali, 1, Dammamm;' echo ' Saad, 2, Dammam;' echo ' Waleed, 3, Al-Dammam;' echo ' Noura, 4, al-dammam;' echo ' Sarah, 5, al-dammamm;' } >> raw_data.csv;
+  347  ls
+  348  cd ..
+  349  cd ~ ;mkdir advance_command_lab;cd advance_command_lab;{ echo ' Ali, 1, Riyadh;' echo ' Saad, 2, Jeddah;' echo ' Waleed, 3, Dammam;' echo ' Noura, 4, Makkah;' echo ' Sarah, 5, Yanbu;' } >> students.csv;{ echo ' Ali-Ahmad;' echo ' Ali-Khaled;' echo ' Waleed-Fahad;' echo ' Noura-Saad;' echo ' Sarah-Mohammed;' } >> names.csv; { echo ' Ali, 1, Dammamm;' echo ' Saad, 2, Dammam;' echo ' Waleed, 3, Al-Dammam;' echo ' Noura, 4, al-dammam;' echo ' Sarah, 5, al-dammamm;' } >> raw_data.csv;
+  350  cd TQ
+  351  ls
+  352  cd Linux-working-with-advance-commands-task/
+  353  ls
+  354  cd advance_command_lab/
+  355  ls
+  356  uptime 
+  357  man uptime 
+  358  clear
+  359  ls
+  360  cat names.csv , raw_data.csv , students.csv | uptime 
+  361  cat names.csv | uptime 
+  362  cat names.csv 
+  363  { echo ' Ali, 1, Riyadh;'; echo ' Saad, 2, Jeddah;'; echo ' Waleed, 3, Dammam;'; echo ' Noura, 4, Makkah;'; echo ' Sarah, 5, Yanbu;'; } >> students.csv;{ echo ' Ali-Ahmad;'; echo ' Ali-Khaled;'; echo ' Waleed-Fahad;'; echo ' Noura-Saad;'; echo ' Sarah-Mohammed;'; } >> names.csv; { echo ' Ali, 1, Dammamm;'; echo ' Saad, 2, Dammam;'; echo ' Waleed, 3, Al-Dammam;'; echo ' Noura, 4, al-dammam;'; echo ' Sarah, 5, al-dammamm;'; } >> raw_data.csv;
+  364  uptime | cat names.csv 
+  365  clear 
+  366  cat names.csv | uptime 
+  367  cat names.csv && uptime 
+  368  cat names.csv | tee names.csv 
+  369  ls
+  370  cat names.csv | tee -a dates
+  371  ls
+  372  cat dates 
+  373  cat names.csv |  | tee date.csv 
+  374  ls
+  375  cat date.csv 
+  376  date names.csv | tee date.csv 
+  377  cat dates 
+  378  cat date.csv 
+  379  clear
+  380  cat dates 
+  381  cat date.csv 
+  382  cat names.csv | tee date.csv 
+  383  date | tee date.csv 
+  384  cat names.csv 
+  385  man sort
+  386  sort -o students.csv 
+  387  cat students.csv 
+  388  sort students.csv 
+  389  sed sort students.csv 
+  390  sed 's/\/\'
+  391  sed sort 's/\/\'
+  392  sort students.csv >> students.csv 
+  393  cat students.csv 
+  394  sort students.csv > students.csv 
+  395  cat students.csv 
+  396  echo ' Ali, 1, Riyadh;'; echo ' Saad, 2, Jeddah;'; echo ' Waleed, 3, Dammam;'; echo ' Noura, 4, Makkah;'; echo ' Sarah, 5, Yanbu;'; } >> students.csv;
+  397  ls
+  398  rm students.csv 
+  399  echo ' Ali, 1, Riyadh;'; echo ' Saad, 2, Jeddah;'; echo ' Waleed, 3, Dammam;'; echo ' Noura, 4, Makkah;'; echo ' Sarah, 5, Yanbu;'; } >> students.csv;
+  400  ls
+  401  {echo ' Ali, 1, Riyadh;'; echo ' Saad, 2, Jeddah;'; echo ' Waleed, 3, Dammam;'; echo ' Noura, 4, Makkah;'; echo ' Sarah, 5, Yanbu;'; } >> students.csv;
+  402  echo ' Ali, 1, Riyadh;'; echo ' Saad, 2, Jeddah;'; echo ' Waleed, 3, Dammam;'; echo ' Noura, 4, Makkah;'; echo ' Sarah, 5, Yanbu;';  >> students.csv;
+  403  cat students.csv 
+  404  echo ' Ali, 1, Riyadh;'; echo ' Saad, 2, Jeddah;'; echo ' Waleed, 3, Dammam;'; echo ' Noura, 4, Makkah;'; echo ' Sarah, 5, Yanbu;';  >> students.csv;
+  405  echo ' Ali, 1, Riyadh;'; echo ' Saad, 2, Jeddah;'; echo ' Waleed, 3, Dammam;'; echo ' Noura, 4, Makkah;'; echo ' Sarah, 5, Yanbu;'  >> students.csv;
+  406  cat students.csv 
+  407  rm names.csv students.csv raw_data.csv 
+  408  ls
+  409  rm date
+  410  rmdir dates
+  411  clear 
+  412  { echo ' Ali, 1, Riyadh;'; echo ' Saad, 2, Jeddah;'; echo ' Waleed, 3, Dammam;'; echo ' Noura, 4, Makkah;'; echo ' Sarah, 5, Yanbu;'; } >> students.csv;{ echo ' Ali-Ahmad;'; echo ' Ali-Khaled;'; echo ' Waleed-Fahad;'; echo ' Noura-Saad;'; echo ' Sarah-Mohammed;'; } >> names.csv; { echo ' Ali, 1, Dammamm;'; echo ' Saad, 2, Dammam;'; echo ' Waleed, 3, Al-Dammam;'; echo ' Noura, 4, al-dammam;'; echo ' Sarah, 5, al-dammamm;'; } >> raw_data.csv;
+  413  claer
+  414  clear 
+  415  sort -o students.csv > students.csv 
+  416  cat students.csv 
+  417  cat names.csv 
+  418  rm names.csv students.csv raw_data.csv 
+  419  { echo ' Ali, 1, Riyadh;'; echo ' Saad, 2, Jeddah;'; echo ' Waleed, 3, Dammam;'; echo ' Noura, 4, Makkah;'; echo ' Sarah, 5, Yanbu;'; } >> students.csv;{ echo ' Ali-Ahmad;'; echo ' Ali-Khaled;'; echo ' Waleed-Fahad;'; echo ' Noura-Saad;'; echo ' Sarah-Mohammed;'; } >> names.csv; { echo ' Ali, 1, Dammamm;'; echo ' Saad, 2, Dammam;'; echo ' Waleed, 3, Al-Dammam;'; echo ' Noura, 4, al-dammam;'; echo ' Sarah, 5, al-dammamm;'; } >> raw_data.csv;
+  420  cat students.csv 
+  421  sort -o students.csv >> students.csv 
+  422  cat students.csv 
+  423  sort students.csv > students.csv 
+  424  cat students.csv 
+  425  rm students.csv names.csv raw_data.csv 
+  426  { echo ' Ali, 1, Riyadh;'; echo ' Saad, 2, Jeddah;'; echo ' Waleed, 3, Dammam;'; echo ' Noura, 4, Makkah;'; echo ' Sarah, 5, Yanbu;'; } >> students.csv;{ echo ' Ali-Ahmad;'; echo ' Ali-Khaled;'; echo ' Waleed-Fahad;'; echo ' Noura-Saad;'; echo ' Sarah-Mohammed;'; } >> names.csv; { echo ' Ali, 1, Dammamm;'; echo ' Saad, 2, Dammam;'; echo ' Waleed, 3, Al-Dammam;'; echo ' Noura, 4, al-dammam;'; echo ' Sarah, 5, al-dammamm;'; } >> raw_data.csv;
+  427  cat students.csv 
+  428  sort -o students.csv students.csv 
+  429  cat students.csv 
+  430  ls
+  431  rm date.csv 
+  432  uptime | tee date.csv
+  433  man cut
+  434  cat names.csv 
+  435  cat names | cut names.csv -d- -z
+  436  cat names | cut names.csv d- -z
+  437  cat names | cut names.csv -d- z-
+  438  cat names.csv | cut -d- --output-delimiter ' ' -f2
+  439  cat names.csv | cut -d- --output-delimiter ' ' -f1
+  440  cat names.csv | cut -d- --output-delimiter ' ' -f
+  441  cat names.csv | cut -d- --output-delimiter ' ' 
+  442  cat names.csv | cut -d- --output-delimiter ' ' -f1,2
+  443  cat names.csv 
+  444  cat names.csv | cut -d- --output-delimiter ' ' -f1,2
+  445  touch full_name.csv
+  446  cat names.csv |echo  cut -d- --output-delimiter ' ' -f1,2 >> full_name.csv
+  447  cat full_name.csv 
+  448  cat names.csv |  cut -d- --output-delimiter ' ' -f1,2 >> full_name.csv
+  449  cat full_name.csv 
+  450  man sef
+  451  man sed
+  452  man sed 
+  453  man cut
+  454  history
+  455  clear
+  456  cat raw_data.csv 
+  457  sed -i 's/Ahmed/Hudaiban/' file.txt
+  458  clear
+  459  cat raw_data.csv 
+  460  sed -i 's/Dammam/{Al-Dammam,Dammam,al-dammam}/' raw_data.csv 
+  461  cat raw_data.csv 
+  462  man sed
+  463  sed -i 's/[Al-Dammam,Dammam,al-dammam]/Dammam/' raw_data.csv 
+  464  sed -i 's/Al-Dammam/Dammam/' raw_data.csv 
+  465  sed -i 's/[al-dammam]/Dammam/' raw_data.csv 
+  466  sed -i 's/al-dammam/Dammam/' raw_data.csv 
+  467  sed -i 's/dammam/Dammam/' raw_data.csv 
+  468  cat raw_data.csv 
+  469  sed -i 's/{Al-Dammam,Dammam,al-dammam}/Dammam/' raw_data.csv 
+  470  cat raw_data.csv 
+  471  rm raw_data.csv 
+  472  { echo ' Ali, 1, Dammamm;'; echo ' Saad, 2, Dammam;'; echo ' Waleed, 3, Al-Dammam;'; echo ' Noura, 4, al-dammam;'; echo ' Sarah, 5, al-dammamm;'; } >> raw_data.csv;
+  473  cat raw_data.csv 
+  474  sed -i 's/al-dammam/Dammam/' raw_data.csv 
+  475  cat raw_data.csv 
+  476  sed -i 's/Al-dammam/Dammam/' raw_data.csv 
+  477  cat raw_data.csv 
+  478  sed -i 's/Al-Dammam/Dammam/' raw_data.csv 
+  479  cat raw_data.csv 
+  480  ls
+  481  sudo ls
+  482  cd ..
+  483  ls
+  484  cd 
+  485  sudo apt-get update
+  486  su root
+  487  su
+  488  su a
+  489  cd TQ
+  490  ls
+  491  cd Bash-Scripting-Task/
+  492  ls
+  493  cd
+  494  clear
+  495  man ip
+  496  ifconfig
+  497  exit
+  498  cd TQ/
+  499  ls
+  500  cd Bash-Scripting-Task/
+  501  ls
+  502  nano userUID.sh 
+  503  su root
+  504  su root 
+  505  sudo root
+  506  nano isTheRoot.sh 
+  507  nano whoIsLoggedIn.sh 
+  508  sh whoIsLoggedIn.sh 
+  509  su a
+  510  sudo -i
+  511  history 
+  512  man cron 
+  513  man crontab
+  514  crontab -l
+  515  exit
+  516  history 
+  517  cd ..
+  518  ls
+  519  cd Crontab/
+  520  ls
+  521  pwd
+  522  cd Desktop/TQ
+  523  ls
+  524  cd TQ/
+  525  ls
+  526  git clone https://github.com/Tuwaiq-Cloud-Computing/Linux-File-System-Task.git
+  527  ls
+  528  cd Linux-File-System-Task/
+  529  ls
+  530  mkdir -p tuwaiq/Enginerring
+  531  ls
+  532  mkdir -p tuwaiq/Accounting
+  533  mkdir -p tuwaiq/HR
+  534  cd tuwaiq/Enginerring/
+  535  cd ..
+  536  rmdir Enginerring/
+  537  mkdir Engineering
+  538  cd Engineering/
+  539  touch Engineering{1..5}.txt
+  540  cd ..
+  541  cd Engineering/
+  542  cd ..
+  543  cd Accounting/
+  544  touch Accounting/{1..5}.txt
+  545  touch Accounting{1..5}.txt
+  546  cd ..
+  547  cd HR
+  548  touch HR{1..5}.txt
+  549  ls
+  550  cd ..
+  551  cd Engineering/
+  552  ls
+  553  cd ..
+  554  cd Accounting/
+  555  ls
+  556  cd ..
+  557  sudo group add Engineering HR Accounting
+  558  sudo group add Engineering 
+  559  sudo groupadd Engineering HR Accounting
+  560  sudo groupad Engineering HR Accounting
+  561  sudo groupadd Engineering 
+  562  sudo groupadd HR
+  563  sudo groupadd Accounting
+  564  ls
+  565  tree
+  566  ls 
+  567  ls Accounting/
+  568  ls HR
+  569  ls Engineering/
+  570  sudo groupadd Engineering 
+  571  sudo groupadd HR
+  572  sudo groupadd Accounting
+  573  cat /etc/gruop
+  574  sudo cat /etc/group
+  575  sudo cat /etc/passwd
+  576  sudo useradd ahmed -c "engineering" -aG Engineering -P P@ssword123! 
+  577  sudo useradd ahmed -c "engineering" -aG Engineering -p P@ssword123! 
+  578  sudo useradd ahmed -c "engineering" -aG Engineering 
+  579  sudo useradd ahmed -c "engineering" -G Engineering 
+  580  sudo useradd yaman -c "engineering" -G Engineering 
+  581  sudo useradd ali -c "HR Manager" -G HR 
+  582  sudo useradd hazem -c "HR Manager" -G HR 
+  583  sudo useradd salwa -c "HR "Accountant" -G HR 
+  584  sudo useradd salwa -c HR "Accountant" -G HR 
+  585  sudo useradd salwa -c HR "Accountant" -G Accounting 
+  586  sudo useradd salwa -c "Accountant" -G Accounting 
+  587   
+  588  sudo groupadd CEO
+  589  sudo useradd anas -c "CEO" -G CEO 
+  590  sudo passwd ahmed 
+  591  sudo cat /etc/shadow
+  592  sudo passwd yaman 
+  593  sudo passwd ali hazem 
+  594  sudo passwd -a 
+  595  sudo passwd -a ali hazem
+  596  sudo -a passwd 
+  597  sudo passwd ali
+  598  sudo passwd hazem
+  599  sudo passwd salwa
+  600  sudo passwd rasha
+  601  sudo passwd anas
+  602  ls
+  603  ls -ltr
+  604  sudo chown ali:HR
+  605  sudo chown ali:HR HR
+  606  sudo chown ahmed:Engineer Engineering
+  607  sudo chown ahmed:Engineering Engineering
+  608  sudo chown salwa:Accountant Accounting
+  609  sudo chown salwa:accountant Accounting
+  610  sudo chown salwa:Accountant HR
+  611  sudo chown salwa:HR Accounting
+  612  cd ..
+  613  sudo chown anas:CEO tuwaiq 
+  614  ls -ltr
+  615  cd tuwaiq/
+  616  ls -ltr
+  617  cd /tmp
+  618  mkdir tuwaiq_backup
+  619  tar cvfz /tmp/tuwaiq_backup/backup.gzip ~/TQ/Linux-File-System-Task/tuwaiq/ 
+  620  cd 
+  621  ls
+  622  cd TQ
+  623  ls
+  624  git clone https://github.com/Tuwaiq-Cloud-Computing/Linux-intro-cli-task.git
+  625  ls
+  626  cd Linux-intro-cli-task/
+  627  whoami 
+  628  ls
+  629  wc README.md 
+  630  wc
+  631  w -u 
+  632  history 501!
+  633  man histroy 
+  634  501!
+  635  ls
+  636  uptime 
+  637  TZ-DUBAI date
+  638  TZ-Dubai date
+  639  Tz-Dubai date
+  640  TZ=Dubai date
+  641  TZ=Dubai date > calender.txt 
+  642  cat Dcalender.txt 
+  643  ncal> calender.txt 
+  644  cat calender.txt 
+  645  echo " oh there is an error" 2> logs.txt
+  646  cat logs.txt 
+  647  echos " oh there is an error" 2> logs.txt
+  648  cat logs.txt 
+  649  hostname
+  650  touch READMEANSWER.md
+  651  nano READMEANSWER.md 
+  652  mkdir snaps
+  653  clear
+  654  cd ..
+  655  cd Crontab/
+  656  mkdir company
+  657  cd company/
+  658  mkdir /tmp/company.backup
+  659  ls
+  660  crontab -e
+  661  clear
+  662  crontab -e
+  663  ls
+  664  cd ..
+  665  ls
+  666  ls /tmp/company.backup/
+  667  ls
+  668  crontab -e
+  669  ls /tmp/company.backup/
+  670  ls /tmp/company.backups/
+  671  cd /tmp
+  672  ls
+  673  ls company.backup/
+  674  ls company.backups/
+  675  sudo ls company.backups/
+  676  cd sudo company.backup/
+  677  sudo cd company.backup/
+  678  sudo cd company.backups/
+  679  ls -ltr
+  680  crontab -e
+  681  clear
+  682  ls 
+  683  clear
+  684  ls -ltr company.backups/
+  685  ls -ltr company.backups.zip
+  686  ls
+  687  cd
+  688  crontab -r
+  689  cd TQ
+  690  ls
+  691  cd TQ
+  692  ls
+  693  cd git clone https://github.com/Tuwaiq-Cloud-Computing/Linux-editing-working-with-files.git
+  694  git clone https://github.com/Tuwaiq-Cloud-Computing/Linux-editing-working-with-files.git
+  695  ls
+  696  cd Linux-editing-working-with-files/
+  697  clear
+  698  sudo mkdir -p  ~/mydir/mydir2
+  699  sudo touch  ~/mydir/mydir2/yourname.txt
+  700  cp /var/log/syslog   ~/mydir/securecopy.txt
+  701  sudo cp /var/log/syslog   ~/mydir/securecopy.txt
+  702  cksum securecopy.txt
+  703  ls
+  704  cd ~/mydir/securecopy.txt
+  705  sudo cd ~/mydir/securecopy.txt
+  706  sudo cd /mydir/securecopy.txt
+  707  sudo ~/mydir/mydir2
+  708  cd ~/mydir/mydir2
+  709  ls
+  710  cd ..
+  711  ls
+  712  cksum securecopy.txt
+  713  sudo cksum securecopy.txt
+  714  nano securecopy.txt 
+  715  sudo nano securecopy.txt 
+  716  sudo cksum securecopy.txt
+  717  sudo nano securecopy.txt 
+  718  sudo cksum securecopy.txt
+  719  sudo touch  ~/mydir/mydir2/hudaiban.txt
+  720  find -iname hudaiban.txt
+  721  sudo man useradd>> useraddman.txt
+  722  sudo man useradd >> useraddman.txt
+  723  sudo man useradd >> useradd-man.txt
+  724  cd
+  725  sudo man useradd >> useradd-man.txt
+  726  grep "password" useradd-man.txt 
+  727  sudo diff /var/log/syslog ~/mydir/securecopy.txt
+  728  clear
+  729  sudo groupadd 'HR'
+  730  sudo groupadd 'SALES'
+  731  sudo groupadd 'SHIPPING'
+  732  sudo groupadd 'MANAGER'
+  733  sudo groupadd 'FINANCE'
+  734  sudo useradd  -c "HR, MANAGER", -G HR,MANAGER -e 2025-1-1  ALI  &&  sudo  passwd  ALI
+  735  sudo useradd  -c "CEO", -G CEO  SALEM  &&  sudo  passwd  SALEM
+  736  sudo useradd  -c "HR Specialist", -G HR -e 2025-1-1  RAGHED  &&  sudo  passwd  RAGHED
+  737  sudo useradd  -c "Sales representative", -G SALES -e 2025-1-1  SARAH  &&  sudo  passwd  SARAH
+  738  sudo useradd  -c "Shipping", -e 2025-1-1  ABDULLAH  &&  sudo  passwd  ABDULLAH
+  739  sudo useradd  -c "HR Specialist", -G HR, -e 2025-1-1  DEEM  &&  sudo  passwd  DEEM
+  740  sudo useradd  -c "HR Specialist", -G HR -e 2025-1-1  DEEM  &&  sudo  passwd  DEEM
+  741  sudo useradd  -c "Finance, Manager, HR Specialist", -G HR, MANAGER, FINANCE -e 2025-1-1  KHALID  &&  sudo  passwd  KHALID
+  742  sudo useradd  -c "Finance, Manager, HR Specialist", -G HR,MANAGER,FINANCE -e 2025-1-1  KHALID  &&  sudo  passwd  KHALID
+  743  sudo useradd  -c "Finance Specialist", -G FINANCE -e 2025-1-1  NORAH  &&  sudo  passwd  NORAH
+  744  sudo useradd  -c "Sales representative", -G FINANCE -e 2025-1-1  RANEEM  &&  sudo  passwd  RANEEM
+  745  sudo useradd  -c "Shipping", -G SHIPPING -e 2025-1-1  AHMED  &&  sudo  passwd  AHMED
+  746  sudo useradd  -c "Shipping", -G SHIPPING -e 2025-1-1  OUDI  &&  sudo  passwd  OUDI
+  747  sudo useradd  -c "Shipping", -G SHIPPING -e 2025-1-1  ABDULAZIZ  &&  sudo  passwd  ABDULAZIZ
+  748  sudo useradd  -c "Sales representative", -G SALES -e 2025-1-1  NAIF  &&  sudo  passwd  NAIF
+  749  sudo useradd  -c "HR, Manager", -G HR,MANAGER -e 2025-1-1  GHADA  &&  sudo  passwd  GHADA
+  750  sudo useradd  -c "Shipping", -G SHIPPING -e 2025-1-1  MOHAMMED  &&  sudo  passwd  MOHAMMED
+  751  sudo useradd  -c "Sales representative", -G SALES -e 2025-1-1  HANAN  &&  sudo  passwd  HANAN
+  752  sudo cat /etc/group
+  753  sudo cat /etc/shadow
+  754  sudo cat /etc/passwd
+  755  sudo histroy >> histroyFile.txt
+  756  history
+  757  sudo history >> histroyFile.txt
