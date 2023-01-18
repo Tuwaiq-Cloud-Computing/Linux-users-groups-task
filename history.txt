@@ -1,0 +1,118 @@
+    1  
+    2  date -c 
+    3  date -cli 
+    4  date -CLI
+    5  date --help
+    6  date --date='TZ="CLI"'
+    7  date --TZ='CLI'
+    8  date --date='TZ="Dubai\CLI"'
+    9  date --date='TZ="Dubai/CLI"'
+   10  cal
+   11  Cal
+   12  sudo apt update
+   13  cal
+   14  date --date='TZ=UAE/Dubai'
+   15  date --date='TZ="UAE/Dubai"'
+   16  TZ="Dubai" date
+   17  TZ="CLI" date
+   18  #Calender
+   19  #Calender.txt
+   20  length 
+   21  expr length Calender.txt
+   22  expr length Logs.txt
+   23  wc Logs.txt
+   24  wc -w
+   25  history
+   26  ls
+   27  history
+   28  lsclear 
+   29  clear 
+   30  hwoami
+   31  whoami
+   32  hostname
+   33  history
+   34  ls
+   35  uptime
+   36  date --date='TZ="Dubai"'
+   37  cal > Calendare.txt
+   38  echoes "Oh there is an ERR" 2> Logs.txt
+   39  cat Calendare.txt
+   40  cat Logs.txt
+   41  TZ="Dubai" date
+   42  expr length Logs.txt
+   43  wc -w logs.txt
+   44  wc -w Logs.txt
+   45  who 
+   46  history > AllCMD.txt
+   47  cat /etc/sudoers
+   48  sudo cat /etc/sudoers
+   49  passwd kali
+   50  cat grap root
+   51  cat /etc/sudoers grap root
+   52  sudo cat /etc/sudoers grap root
+   53  sudo cat /etc/sudoers | grap -i root
+   54  y
+   55  sudo cat /etc/sudoers | grap -i root
+   56  sudo apt install grap\n
+   57  sudo cat /etc/sudoers | grap -i root
+   58  clear
+   59  for i in `cat ~/Users.txt` ; do useradd $i; done
+   60  nano Users.txt
+   61  sudo for i in `cat ~/Users.txt` ; do useradd $i; done
+   62  sudo for i in `cat ~/Users.txt`; do useradd $i; done
+   63  for i in `cat ~/Users.txt` ; do useradd $i; done
+   64  clear 
+   65  Useradd -c “CEO”  Ali ; passed Ali
+   66  useradd -c “CEO”  Ali ; passwd Ali
+   67  sudo useradd -c “CEO”  Ali ; passwd Ali
+   68  sudo cat /etc/shadow
+   69  passwd Ali
+   70  sudo passwd Ali
+   71  useradd -c “HR, Manager ” - e “2025-01-01”  Salem;sudo passwd Salem
+   72  useradd -c “HR, Manager ” -e “2025-01-01”  Salem;sudo passwd Salem
+   73  useradd [-c “HR, Manager ” -e “2025-01-01”]  Salem;sudo passwd Salem
+   74  useradd [-c “HR, Manager ” -e “2025-01-01”] Salem ;sudo passwd Salem
+   75  useradd [-c “HR, Manager ” ,-e “2025-01-01”] Salem ;sudo passwd Salem
+   76  useradd -c “HR, Manager ” -e “2025-01-01” Salem ;sudo passwd Salem
+   77  useradd [ -c “HR, Manager ” -e “2025-01-01”] Salem ;sudo passwd Salem
+   78  useradd [ -c “HR, Manager ” -e 2025-01-01 ] Salem ;sudo passwd Salem
+   79  clear
+   80  useradd [ -c “HR, Manager”,  -e 2025-01-01 ] Salem ;sudo passwd Salem
+   81  useradd  -c “HR, Manager” Salem ; sudo usermod -e 2025-01-01;sudo passwd Salem
+   82  useradd  -c “HR, Manager” Salem ; sudo usermod -e 2025-01-01 ; sudo passwd Salem
+   83  useradd  -c “HR, Manager” Salem
+   84  useradd  -c “HR Manager” Salem
+   85  useradd [ -c “HR, Manager”, -e 2025-01-01 ] Salem ;sudo passwd Salem
+   86  useradd -c “HR, Manager” Salem ; sudo usermod -e 2025-01-01 ; sudo passwd Salem
+   87  useradd -c “HR, Manager” Salem ;sudo usermod -e 2025-01-01 ;sudo passwd Salem
+   88  useradd -c “HR, Manager” Salem
+   89  sudo useradd -c “HR, Manager” Salem ;sudo usermod -e 2025-01-01 ;sudo passwd Salem
+   90  sudo useradd -c 'HR, Manager' Salem ;sudo usermod -e 2025-01-01 ;sudo passwd Salem
+   91  sudo usermod -e 2025-01-01 ;sudo passwd Salem
+   92  sudo usermod -e '2025-01-01' ;sudo passwd Salem
+   93  sudo usermod -e '2025-01-01' Salem ;sudo passwd Salem
+   94  \nuseradd -c 'Shipping' Sara;usermod  -e '2025-01-01' Sara;sudo passwd Sara\n\n\nuseradd -c 'HR, Specilist' Deem;usermod -e '2025-01-01' Deem;sudo passwd Deem\n
+   95  \nsudo useradd -c 'Shipping' Sara;sudo usermod  -e '2025-01-01' Sara;sudo passwd Sara;\nsudo useradd -c 'HR, Specilist' Deem;sudo usermod -e '2025-01-01' Deem;sudo passwd Deem\n
+   96  sudo useradd -c 'sales' Hanan;sudo usermod -e '2025-01-01' Hanan;sudo passwd Hanan;\nsudo useradd -c 'Shipping' Naif;sudo usermod -e '2025-01-01' Naif;sudo passwd Naif;\nsudo useradd -c 'HR' Nourh;sudo usermod -e '2025-01-01' Nourh;sudo passwd Nourh;\nsudo useradd -c 'sales' Khalid;sudo usermod -e '2025-01-01' Khalid;sudo passwd Khalid;
+   97  \nsudo groupadd 'CEO';\nsudo groupadd 'Managers';\nsudo groupadd 'HR';\nsudo groupadd 'shiping';\nsudo groupadd 'sales';
+   98  gpasswd -a Ali CEO 
+   99  sudo gpasswd -a Ali CEO 
+  100  sudo gpasswd -a Salem Manager 
+  101  sudo gpasswd -a Salem Managers 
+  102  sudo gpasswd -a Salem,Nourh,Deem HR
+  103  sudo gpasswd -a [Salem,Nourh,Deem] HR
+  104  sudo gpasswd -a Salem HR
+  105  sudo gpasswd -a Nourh HR
+  106  sudo gpasswd -a Deem HR
+  107  sudo gpasswd -a Sara Shiping
+  108  sudo gpasswd -a Sara shiping
+  109  sudo gpasswd -a Naif shiping
+  110  sudo gpasswd -a Hanan sales
+  111  sudo gpasswd -a Khalid sales
+  112  sudo gpasswd CEO
+  113  sudo gpasswd HR
+  114  sudo gpasswd sales
+  115  sudo cat /etc/passwd
+  116  sudo cat /etc/shadow
+  117  sudo cat /etc/group
+  118  cat history > history.txt
