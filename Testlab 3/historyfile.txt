@@ -1,0 +1,71 @@
+    1  sudo -l
+    2  sudo kali
+    3  su kali@kali
+    4  % sudo su -
+    5  -l
+    6  sudo -l
+    7  useradd ashwaq
+    8  useradd Rana
+    9  usermod -c "New comment user" ashwaq
+   10  passwd ashwaq 123
+   11  sudo groupadd myEm
+   12  tail -n 2
+   13  tail -n 3 /etc/shadow
+   14  exit
+   15  userdel rana
+   16  userdel ashwaq
+   17  userdel Rana
+   18  cat
+   19  useradd -c CEO Ali
+   20  cat
+   21  passwd Ali alibaba@s1
+   22  useradd -c "HR,Manager" -e 2025-01-01 Salem
+   23  tail -n 3 /etc/shadow
+   24  passwd Salem alibaba@s1
+   25  useradd -c Shiping -e 25-01-01 Sara
+   26  passwd Sara alibaba@s1 
+   27  useradd -c "HR Specialist" -e 2025-01-01 Deem
+   28  useradd -c "Sales representative" -e 2025-01-01
+   29  useradd -c "Sales representative" -e 2025-01-01 Hanan
+   30  useradd -c "Shipping" -e 2025-01-01 Naif
+   31  useradd -c "HR" -e 2025-01-01 Norah
+   32  useradd -c "Sales representative" -e 2025-01-01 Khaled
+   33  passwd Ali alibaba@s1
+   34  passwd -a alibaba@s1
+   35  passwd Ali alibaba@s1
+   36  passwd Ali
+   37  passwd Salem 
+   38  passwd Sara 
+   39  passwd Deem
+   40  passwd Hanan
+   41  passwd Naif
+   42  passwd Norah
+   43  passwd Khaled
+   44  tail -n 8 /etc/passwd
+   45  groupadd CEO
+   46  groupadd Manager
+   47  groupadd HR
+   48  groupadd Shipping 
+   49  groupadd Sales
+   50  gpasswd CEO
+   51  gpasswd HR
+   52  gpasswd Sales
+   53  sudo usermod Ali -ag CEO
+   54  gpasswd -a CEO
+   55  cat /etc/group
+   56  gpasswd -a CEO Ali
+   57  sudo usermod Ali -a -G CEO Ali
+   58  usermod -a -G CEO Ali
+   59  usermod -a -G Manager Salem
+   60  usermod -a -G HR Salem
+   61  usermod -a -G HR Norah
+   62  usermod -a -G HR Deem
+   63  usermod -a -G Shipping Sara
+   64  usermod -a -G Shipping Naif
+   65  usermod -a -G Sales Hanan
+   66  usermod -a -G Sales Khaled
+   67  cat /etc/group
+   68  cat /etc/passwd
+   69  tail -n 8 /etc/passwd
+   70  tail -n 8 /etc/shadow
+   71  tail -n 5 /etc/group
