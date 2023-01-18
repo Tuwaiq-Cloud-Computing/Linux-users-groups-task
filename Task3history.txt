@@ -1,0 +1,76 @@
+    1  exit
+    2  cat /etc/shadow
+    3  id
+    4  passwd
+    5  chown -R kali
+    6  chown -R Kali
+    7  chown -R username ~kali
+    8  chown -R username kali
+    9  chown -R kali 
+   10  chown -R kali kali
+   11  id
+   12  sudo -s
+   13  exit
+   14  cat /etc/shadow
+   15  tail -n 5 /etc/shadow
+   16  man useradd
+   17  ls
+   18  cd Desktop
+   19  touch users.txt
+   20  rm users.txt
+   21  exit
+   22  for i in `cat /opt/usradd` ; do useradd $i ; done\n
+   23  for i in `cat /opt/useradd` ; do useradd $i ; done\n
+   24  for i in `cat /opt/usradd` ; do id $i ; done\n
+   25  for i in `cat /opt/useradd` ; do id $i ; done\n
+   26  cat /etc/passwd
+   27  groupadd CEO
+   28  groupadd HR, Manager
+   29  groupadd HR,Manager
+   30  groupadd HR Manager
+   31  groupadd HR_Manager
+   32  groupadd Shipping
+   33  groupadd HR_Specialist
+   34  groupadd Sales_Representative
+   35  groupadd Sales 
+   36  usermod -a -G CEO Ali
+   37  usermod -a -G HR_Manager Salem
+   38  usermod -a -G HR_Specialist Deem
+   39  usermod -a -G Shipping Sara
+   40  usermod -a -G Shipping Naif
+   41  usermod -a -G Sales Hanan
+   42  usermod -a -G Sales Khaled
+   43  groups
+   44  groups ceo
+   45  groups CEO
+   46  groups Ali
+   47  groups Salem
+   48  groups Norah
+   49  usermod -a -G HR_Specialist Norah
+   50  groups Norah
+   51  groups Ali
+   52  groups Salem
+   53  groups Norah
+   54  groups Deem
+   55  groups Sara
+   56  groups Naif
+   57  groups Hanan
+   58  groups Khaled
+   59  gpasswd CEO
+   60  gpasswd HR
+   61  gpasswd HR_Manager
+   62  gpasswd Sales
+   63  /etc/passwd
+   64  sudo /etc/passwd
+   65  cat /etc/passwd
+   66  cat /etc/shadow
+   67  cat /etc/group
+   68  groupdel Sales_Representative
+   69  cat /etc/group
+   70  usermod -a -G HR_Specialist Salem
+   71  cat /etc/group
+   72  history
+   73  history > Task3history.txt
+   74  cat Task3history.txt
+   75  rm Task3history.txt
+   76  exit
