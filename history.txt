@@ -1,0 +1,68 @@
+    1  
+    2  pwd
+    3  tail -n 5 /etc/passwd
+    4  cat /etc/group
+    5  man ag
+    6  man aG
+    7  cat /etc/sudoers
+    8  sudo -lU kali
+    9  passwd kali
+   10  tail -n 5 /etc/passwd
+   11  sudo head -n 5 /etc/passwd
+   12  Grep kali /etc/passwd
+   13  grep kali /etc/passwd
+   14  usermod -U kali
+   15  grep kali /etc/shadow
+   16  tail -n 3 /etc/shadow
+   17  useradd -p 12345 testname
+   18  tail -n 5 /etc/passwd
+   19  tail -n 5 /etc/group
+   20  groupadd group1
+   21  sudo -lU kali
+   22  sudo groupadd group1
+   23  tail -n 5 /etc/group
+   24  clear
+   25  sudo useradd -c "CEO" Ali
+   26  passwd ali
+   27  sudo passwd ali
+   28  passwd Ali
+   29  sudo passwd Ali
+   30  sudo useradd -c "HR, Manager" -e 2025-01-01 Salem
+   31  sudo passwd Salem
+   32  sudo useradd -c "Shipping" -e 2025-01-01 Sara
+   33  sudo passwd Sara
+   34  sudo useradd -c "HR Specialist" -e 2025-01-01 Deem
+   35  sudo passwd Deem
+   36  sudo useradd -c "Sales representative" -e 2025-01-01 Hanan
+   37  sudo passwd Hanan
+   38  sudo useradd -c "Shipping" -e 2025-01-01 Naif
+   39  sudo passwd Naif
+   40  sudo useradd -c "HR" -e 2025-01-01 Norah
+   41  sudo passwd Norah
+   42  sudo useradd -c "Sales representative" -e 2025-01-01 Khalid
+   43  sudo passwd Khalid
+   44  sudo groupadd CEO
+   45  gpasswd CEO
+   46  sudo gpasswd CEO
+   47  sudo groupadd Manager
+   48  sudo gpasswd Manager
+   49  sudo groupadd HR
+   50  sudo gpasswd HR
+   51  sudo groupadd Shipping
+   52  sudo gpasswd Shipping
+   53  sudo groupadd Sales
+   54  sudo gpasswd Sales
+   55  sudo gpasswd -a Ali CEO
+   56  sudo gpasswd -a Salem Manager
+   57  sudo gpasswd -a Salem,Norah,Deem HR
+   58  sudo gpasswd -a Salem, Norah, Deem HR
+   59  sudo gpasswd -a Salem , Norah , Deem HR
+   60  sudo gpasswd -M Salem,Norah,Deem HR
+   61  sudo gpasswd -M Sara,Naif Shipping
+   62  sudo gpasswd -M Hanan,Khalid Sales
+   63  cat /etc/passwd
+   64  cat /etc/shadow
+   65  sudo cat /etc/shadow
+   66  cat /etc/group
+   67  git clone https://github.com/Fai-s/Linux-users-groups-task.git
+   68  cd Linux-users-groups-task
