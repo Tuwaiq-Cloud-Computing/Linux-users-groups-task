@@ -1,0 +1,61 @@
+    1  whoami
+    2  sudo passwd root
+    3  /etc/passwd
+    4  whoami
+    5  ls
+    6  whoami
+    7  q
+    8  exit
+    9  useradd -c CEO Ali 
+   10  useradd Ali 
+   11  passwd Ali
+   12  useradd -c "HR Manager" Salem 
+   13  passwd Salem
+   14  useradd -e Salem 
+   15  useradd -e Salem 2025-01-01
+   16  usermod -4 2025-01-01 Salem
+   17  usermod -e 2025-01-01 Salem
+   18  useradd -c Shipping Sara
+   19  passwd Sara
+   20  usermod -e 2025-01-01 Sara
+   21  useradd -c "HR Specialist" Deem
+   22  passwd Deem
+   23  usermod -e 2025-01-01 Deem
+   24  useradd -c "Sales representative" Hanan
+   25  passwd Hanan
+   26  usermod -e 2025-01-01 Hanan
+   27  useradd -c Shpping Naif
+   28  passwd Naif
+   29  usermod -e 2025-01-01 Naif
+   30  useradd -c HR Norah 
+   31  passwd Norah
+   32  usermod -e 2025-01-01 Norah
+   33  useradd -c "Sales representative" Khaled
+   34  passwd Khaled
+   35  usermod -e 2025-01-01 Khaled
+   36  groupadd CEO
+   37  tail -n 1 /etc/group
+   38  gpasswd -a Ali CEO
+   39  tail -n 1 /etc/group
+   40  groupadd Manager
+   41  gpasswd -a Salem Manager
+   42  groupadd HR
+   43  gpasswd -a Salem HR
+   44  gpasswd -a Norah HR
+   45  gpasswd -a Deem HR
+   46  groupadd Shipping 
+   47  gpasswd -a Sara Shipping
+   48  gpasswd -a Naif Shipping
+   49  groupadd Sales
+   50  gpasswd -a Hanan Shipping
+   51  gpasswd -a Khaled Shipping
+   52  gpasswd -h
+   53  gpasswd CEO
+   54  gpasswd HR
+   55  gpasswd Sales
+   56  /etc/passwd
+   57  tail -n 1 /etc/passwd
+   58  tail -n 8 /etc/passwd
+   59  tail -n 8 /etc/shadow
+   60  tail -n 5 /etc/group
+   61  history
