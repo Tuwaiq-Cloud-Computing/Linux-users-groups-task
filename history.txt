@@ -1,0 +1,87 @@
+    1  
+    2  whoami
+    3  pwd
+    4  clear
+    5  whoami
+    6  man
+    7  whoami man 
+    8  clear
+    9  whoami
+   10  hostname
+   11  history
+   12  whoami
+   13  uptime
+   14  date --d 'TZ=":Dubai/CLI" '
+   15  date TZ=":Dubai/CLI"
+   16  date --date='TZ="Dubai"'
+   17  date --date='TZ="UAE/Dubai"'
+   18  TZ=":UAE/Dubai" date
+   19  TZ=":Dubai" date
+   20  cal 
+   21  sudo apt update 
+   22  cal 
+   23  cal > calender.txt
+   24  echo "Oh there is an error" 2> logs.txt
+   25  wc -w
+   26  TZ=":Dubai" date 
+   27  sudo 
+   28  sudo su -
+   29  sudo -IU root
+   30  /etc/shadow
+   31  sudo -lU kali
+   32  sudo -lU
+   33  tail -n 3 /etc/shadow
+   34  clear
+   35  cat /etc/passwd
+   36  useradd -c "CEO" Ali
+   37  cat /etc/passwd
+   38  clear
+   39  useradd -c "CEO" Ali 
+   40  sudo
+   41  sudo useradd -c "CEO" Ali 
+   42  useradd -c "CEO" Alii 
+   43  sudo passwd Ali
+   44  sudo useradd -c "HR,Manager" Salem
+   45  sudo passwd Salem
+   46  sudo useradd -c "Shipping" Sara
+   47  sudo passwd Sara
+   48  sudo useradd -c "HR Specialist" Deem
+   49  sudo passwd Deem
+   50  sudo useradd -c "Sales representative" Hanan
+   51  sudo passwd Hanan
+   52  sudo useradd -c "Shipping" -a 2025-01-01  Naif
+   53  sudo useradd -c "Shipping" Naif
+   54  sudo passwd Naif
+   55  sudo useradd -c "HR" Norah
+   56  sudo passwd Norah
+   57  sudo useradd -c "Sales representative" Khaled
+   58  sudo passwd Khaled
+   59  sudo groupadd CEO
+   60  sudo usermod Ali -a CEO 
+   61  sudo gpasswd -a Ali CEO
+   62  sudo groupadd Manager
+   63  sudo gpasswd -a Salem Manager
+   64  sudo groupadd HR
+   65  sudo gpasswd -a Salem HR
+   66  sudo gpasswd -a Norah HR
+   67  sudo gpasswd -a Deem HR
+   68  sudo groupadd Shipping
+   69  sudo gpasswd -a Sara Shipping
+   70  sudo gpasswd -a Naif Shipping
+   71  sudo groupadd Sales
+   72  sudo gpasswd -a Hanan Sales
+   73  sudo gpasswd -a Khaled Sales
+   74  sudo passwd CEO
+   75  sudo gpasswd CEO
+   76  sudo gpasswd HR
+   77  sudo gpasswd Sales
+   78  sudo useradd -e 2025-01-01 Salem
+   79  sudo Salem -e 2025-01-01
+   80  sudo /etc/passwd
+   81  cat /etc/passwd
+   82  cat /etc/shadow
+   83  cat /etc/group
+   84  sudo /etc/shadow
+   85  /etc/shadow
+   86  sudo cat /etc/shadow
+   87  history 
