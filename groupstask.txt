@@ -1,0 +1,112 @@
+    1  sudo -lu Hana
+    2  sudo su - %
+    3  su -root
+    4  id
+    5  su -kali
+    6  su -root
+    7  sudo -l
+    8  sudo -lu
+    9  user add Hana1
+   10  TZ='UAE/Dubai' date 2> calnder.exe
+   11  TZ='UAE/Dubai' date 2< calnder.exe
+   12  sudo -lu
+   13  sudo -lu Hana
+   14  ggg
+   15  group add test1
+   16  user
+   17  useradd Ali
+   18  useradd Sara
+   19  useradd Salem
+   20  useradd Deem
+   21  useradd Hanan
+   22  useradd Naif
+   23  useradd Nourah
+   24  useradd Khaled
+   25  groupadd Test2
+   26  groupadd Hr
+   27  groupadd Alibabastusents001
+   28  groupadd CEO
+   29  groupadd Manager
+   30  groupadd Shipping
+   31  groupadd Sales
+   32  usermod -c CEO  -e 01-01-2025 Salem
+   33  usermod -c Shipping  -e 01-01-2025 Sara
+   34  usermod -c HR Specialist -e 01-01-2025 Deem
+   35  usermod -c HRSpecialist -e 01-01-2025 Deem
+   36  usermod -c Sales -e 01-01-2025 Hanan
+   37  usermod -c Sales -e 01-01-2025 Khaled
+   38  usermod -c Shipping -e 01-01-2025 Naif
+   39  passwd Naif alibaba@s1
+   40  passwd Naif
+   41  cd
+   42  cd /home/kali/desktop
+   43  cd..
+   44  pw
+   45  wp
+   46  cd
+   47  desktop
+   48  cd /home/kali/desktop
+   49  ls
+   50  cd /ho
+   51  cd /home
+   52  ls
+   53  cd /home/kali/Desktop
+   54  ls
+   55  touch vimact
+   56  vim vimact
+   57  passwd Sara
+   58  passwd Naif
+   59  passwd Deem
+   60  passwd Khaled
+   61  passwd Hanan
+   62  passwd Salem
+   63  passwd Noura
+   64  passwd Nourah
+   65  passwd Ali
+   66  addgroup HR
+   67  groupadd HR
+   68  groupadd CEO
+   69  groupadd Sales
+   70  passwd HR
+   71  g passwd Hr
+   72  gpasswd Hr
+   73  gpasswd CEO
+   74  gpasswd Sales
+   75  history
+   76  /etc/passwd
+   77  cd /etc/passwd
+   78  vimtutor
+   79  useradd Khaled
+   80  useradd Nourah
+   81  useradd Naif
+   82  useradd Hanan
+   83  useradd Deem
+   84  useradd Salem
+   85  useradd Sara
+   86  useradd Ali
+   87  groupadd Shipping
+   88  groupadd Sales
+   89  groupadd HR
+   90  groupadd Manager
+   91  groupadd CEO
+   92  cd /home/kali/desktop
+   93  find passwd
+   94  cat /etc/passwd
+   95  cat /etc/shadow
+   96  history
+   97  cat /etc/group
+   98  usermod Ali -aG CEO
+   99  usermod Hanan -aG Sales
+  100  usermod Khaled -aG Sales
+  101  usermod Salem -aG HR
+  102  usermod Nourah -aG HR
+  103  usermod Deem -aG HR
+  104  usermod Sara -aG Shipping
+  105  usermod Naif -aG Shipping
+  106  cat /etc/passwd
+  107  history
+  108  cat /etc/group
+  109  history
+  110  history 1> groupstask
+  111  cat groupstask
+  112  cat groupstask.txt
