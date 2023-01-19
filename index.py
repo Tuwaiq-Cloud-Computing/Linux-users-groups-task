@@ -32,7 +32,7 @@ user_groups = [
 for group in user_groups:
 	os.system(f'groupadd {group["groupName"]}')
 	for user in group["users"]:
-		os.system(f'useradd {user} --gid {group["groupName"]} --groups {group["groupName"]} --password {encPass} --expiredate {ExpirationDate}')
+		os.system(f'useradd {user}  --groups {group["groupName"]} --password {encPass} --expiredate {ExpirationDate}')
 		
 
 
