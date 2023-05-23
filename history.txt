@@ -1,0 +1,505 @@
+Last login: Tue May 23 18:13:42 on ttys009
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MBPalkhaymoonah:~ imaymoonah$ docker start -ia 3f94faee60c5
+[root@3f94faee60c5 /]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+unbound:x:998:996:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+me:x:1000:1001:added comment:/home/me:/bin/bash
+Ali:x:1001:1003:CEO:/home/Ali:/bin/bash
+Salem:x:1002:1004:HR, Manger:/home/Salem:/bin/bash
+Sara:x:1003:1005:Shipping:/home/Sara:/bin/bash
+Deem:x:1004:1006:HR Specialist:/home/Deem:/bin/bash
+[root@3f94faee60c5 /]# useradd -c "Sales representative" -e 2025-01-01 Hanan
+[root@3f94faee60c5 /]# useradd -c "Shipping" -e 2025-01-01 Naif
+[root@3f94faee60c5 /]# useradd -c "HR" -e 2025-01-01 Norah
+[root@3f94faee60c5 /]# useradd -c "Sale representative" -e 2025-01-01 Khaled
+[root@3f94faee60c5 /]# cat /etc/shadow
+root:$6$4pez5eMXn3aOR0G3$zr6sODnhDZ2UnYOe/uFBflTku7oCVo1yd8aJg8eIkkHR3rj35y4wt6VxBzUhpgKECq13F8eATggt5MuBnCcz61:19499:0:99999:7:::
+bin:*:18397:0:99999:7:::
+daemon:*:18397:0:99999:7:::
+adm:*:18397:0:99999:7:::
+lp:*:18397:0:99999:7:::
+sync:*:18397:0:99999:7:::
+shutdown:*:18397:0:99999:7:::
+halt:*:18397:0:99999:7:::
+mail:*:18397:0:99999:7:::
+operator:*:18397:0:99999:7:::
+games:*:18397:0:99999:7:::
+ftp:*:18397:0:99999:7:::
+nobody:*:18397:0:99999:7:::
+dbus:!!:18885::::::
+systemd-coredump:!!:18885::::::
+systemd-resolve:!!:18885::::::
+tss:!!:19499::::::
+unbound:!!:19499::::::
+me:1234:19499:0:99999:7:::
+Ali:!!:19500:0:99999:7:::
+Salem:alibaba@s1:19500:0:99999:7::20089:
+Sara:alibaba@s1:19500:0:99999:7::20089:
+Deem:!!:19500:0:99999:7::20089:
+Hanan:!!:19500:0:99999:7::20089:
+Naif:!!:19500:0:99999:7::20089:
+Norah:!!:19500:0:99999:7::20089:
+Khaled:!!:19500:0:99999:7::20089:
+[root@3f94faee60c5 /]# mkdir folderA
+[root@3f94faee60c5 /]# cd folderA
+[root@3f94faee60c5 folderA]# pwd 
+/folderA
+[root@3f94faee60c5 folderA]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+unbound:x:998:996:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+me:x:1000:1001:added comment:/home/me:/bin/bash
+Ali:x:1001:1003:CEO:/home/Ali:/bin/bash
+Salem:x:1002:1004:HR, Manger:/home/Salem:/bin/bash
+Sara:x:1003:1005:Shipping:/home/Sara:/bin/bash
+Deem:x:1004:1006:HR Specialist:/home/Deem:/bin/bash
+Hanan:x:1005:1007:Sales representative:/home/Hanan:/bin/bash
+Naif:x:1006:1008:Shipping:/home/Naif:/bin/bash
+Norah:x:1007:1009:HR:/home/Norah:/bin/bash
+Khaled:x:1008:1010:Sale representative:/home/Khaled:/bin/bash
+[root@3f94faee60c5 folderA]# password Ali
+bash: password: command not found
+[root@3f94faee60c5 folderA]# passwd Ali
+Changing password for user Ali.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[root@3f94faee60c5 folderA]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+unbound:x:998:996:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+me:x:1000:1001:added comment:/home/me:/bin/bash
+Ali:x:1001:1003:CEO:/home/Ali:/bin/bash
+Salem:x:1002:1004:HR, Manger:/home/Salem:/bin/bash
+Sara:x:1003:1005:Shipping:/home/Sara:/bin/bash
+Deem:x:1004:1006:HR Specialist:/home/Deem:/bin/bash
+Hanan:x:1005:1007:Sales representative:/home/Hanan:/bin/bash
+Naif:x:1006:1008:Shipping:/home/Naif:/bin/bash
+Norah:x:1007:1009:HR:/home/Norah:/bin/bash
+Khaled:x:1008:1010:Sale representative:/home/Khaled:/bin/bash
+[root@3f94faee60c5 folderA]# cat /etc/shadow
+root:$6$4pez5eMXn3aOR0G3$zr6sODnhDZ2UnYOe/uFBflTku7oCVo1yd8aJg8eIkkHR3rj35y4wt6VxBzUhpgKECq13F8eATggt5MuBnCcz61:19499:0:99999:7:::
+bin:*:18397:0:99999:7:::
+daemon:*:18397:0:99999:7:::
+adm:*:18397:0:99999:7:::
+lp:*:18397:0:99999:7:::
+sync:*:18397:0:99999:7:::
+shutdown:*:18397:0:99999:7:::
+halt:*:18397:0:99999:7:::
+mail:*:18397:0:99999:7:::
+operator:*:18397:0:99999:7:::
+games:*:18397:0:99999:7:::
+ftp:*:18397:0:99999:7:::
+nobody:*:18397:0:99999:7:::
+dbus:!!:18885::::::
+systemd-coredump:!!:18885::::::
+systemd-resolve:!!:18885::::::
+tss:!!:19499::::::
+unbound:!!:19499::::::
+me:1234:19499:0:99999:7:::
+Ali:$6$v3uh5b9S7T.3MnRO$JYWd5Y3bNrXPPA4r4.B9lp/h357PZdtxDpaGqj9NomjwAYc1./53PGBDwmdzffdlXgq3kLs/ZdJAFpwUT5d0Z/:19500:0:99999:7:::
+Salem:alibaba@s1:19500:0:99999:7::20089:
+Sara:alibaba@s1:19500:0:99999:7::20089:
+Deem:!!:19500:0:99999:7::20089:
+Hanan:!!:19500:0:99999:7::20089:
+Naif:!!:19500:0:99999:7::20089:
+Norah:!!:19500:0:99999:7::20089:
+Khaled:!!:19500:0:99999:7::20089:
+[root@3f94faee60c5 folderA]# passwd Salem
+Changing password for user Salem.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[root@3f94faee60c5 folderA]# passwd Sara
+Changing password for user Sara.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[root@3f94faee60c5 folderA]# passwd Deem
+Changing password for user Deem.
+New password: 
+Retype new password: 
+Sorry, passwords do not match.
+New password: 
+Retype new password: 
+Sorry, passwords do not match.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[root@3f94faee60c5 folderA]# passwd Hanan
+Changing password for user Hanan.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[root@3f94faee60c5 folderA]# passwd Naif
+Changing password for user Naif.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[root@3f94faee60c5 folderA]# passwd Norah
+Changing password for user Norah.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[root@3f94faee60c5 folderA]# passwd Khaled
+Changing password for user Khaled.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[root@3f94faee60c5 folderA]# cat /etc/shadow
+root:$6$4pez5eMXn3aOR0G3$zr6sODnhDZ2UnYOe/uFBflTku7oCVo1yd8aJg8eIkkHR3rj35y4wt6VxBzUhpgKECq13F8eATggt5MuBnCcz61:19499:0:99999:7:::
+bin:*:18397:0:99999:7:::
+daemon:*:18397:0:99999:7:::
+adm:*:18397:0:99999:7:::
+lp:*:18397:0:99999:7:::
+sync:*:18397:0:99999:7:::
+shutdown:*:18397:0:99999:7:::
+halt:*:18397:0:99999:7:::
+mail:*:18397:0:99999:7:::
+operator:*:18397:0:99999:7:::
+games:*:18397:0:99999:7:::
+ftp:*:18397:0:99999:7:::
+nobody:*:18397:0:99999:7:::
+dbus:!!:18885::::::
+systemd-coredump:!!:18885::::::
+systemd-resolve:!!:18885::::::
+tss:!!:19499::::::
+unbound:!!:19499::::::
+me:1234:19499:0:99999:7:::
+Ali:$6$v3uh5b9S7T.3MnRO$JYWd5Y3bNrXPPA4r4.B9lp/h357PZdtxDpaGqj9NomjwAYc1./53PGBDwmdzffdlXgq3kLs/ZdJAFpwUT5d0Z/:19500:0:99999:7:::
+Salem:$6$ygLzGXyiJd.cLJ7K$IgFT/o638anzqoY/Ux.zLG/TZppCC4PLfilIbkicYEhhkUOVXvu7avx1s.JhV69ACGh/QKn8fZ2R4.4jNDpiU.:19500:0:99999:7::20089:
+Sara:$6$PUt8BcjZxRR8BApF$XSma68PotetML/w3Y6fvrO64aNKuwNLuF4jCAHUV1lzFAQ6FGJ8n2dGQaSvVlIt.FqN9FsIpFZFp2/JAAbdX10:19500:0:99999:7::20089:
+Deem:$6$hSFc8jGMkWTgGBpc$820Jge7jAiz8eMGDF0RG6G67lyH1O8sOz5K1GPajUN1rQrmiSLWcg/6qXbDWrafAfGqF.l0cmEsJ/ZbwJ5mpV.:19500:0:99999:7::20089:
+Hanan:$6$uAV5TZmB2IQ5RecX$ASZwyZBb8coUPEGdtnO.QHPkUeuBpBWdmnz.K02qjRrrWy8rJV1rKJHNi0A5g73F.uGiCXHpbmG05RM7GujfM0:19500:0:99999:7::20089:
+Naif:$6$2roomah6SNkctY33$OFWBevlnxZhoncT3YKJlec00VidPvJGhIMybeF4jykAIax2cGpN67qQ21ULhR7Rg.f3vjwHZjolIf2MT8jlEO.:19500:0:99999:7::20089:
+Norah:$6$9QyTyO1Mwcq/jUyd$RbKZ0hCAh6pr38F3KiGdDlaTPD.hjIVMgpwe1Koua46JofKjfHRGBaNfFUQfI1LnT3sOgN8OMfFr3DLrxhqQw1:19500:0:99999:7::20089:
+Khaled:$6$.Pj1g5VLAvYBzAQS$ibEJgm57WADX9k2RR641JzxU6B9p.skebi0/ZmV9euTpxrR3B3haYFMJfE9jCb3T89n6f5R/xBBOt8zRrorpi1:19500:0:99999:7::20089:
+[root@3f94faee60c5 folderA]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+unbound:x:998:996:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+me:x:1000:1001:added comment:/home/me:/bin/bash
+Ali:x:1001:1003:CEO:/home/Ali:/bin/bash
+Salem:x:1002:1004:HR, Manger:/home/Salem:/bin/bash
+Sara:x:1003:1005:Shipping:/home/Sara:/bin/bash
+Deem:x:1004:1006:HR Specialist:/home/Deem:/bin/bash
+Hanan:x:1005:1007:Sales representative:/home/Hanan:/bin/bash
+Naif:x:1006:1008:Shipping:/home/Naif:/bin/bash
+Norah:x:1007:1009:HR:/home/Norah:/bin/bash
+Khaled:x:1008:1010:Sale representative:/home/Khaled:/bin/bash
+[root@3f94faee60c5 folderA]# groupadd CEO
+[root@3f94faee60c5 folderA]# groupadd Manger
+[root@3f94faee60c5 folderA]# groupadd HR
+[root@3f94faee60c5 folderA]# groupadd Shipping
+[root@3f94faee60c5 folderA]# groupadd Sales
+[root@3f94faee60c5 folderA]# gpasswd -M Sara,Naif Shipping
+[root@3f94faee60c5 folderA]# gpasswd -M Salem , Norah , Deem HR
+Usage: gpasswd [option] GROUP
+
+Options:
+  -a, --add USER                add USER to GROUP
+  -d, --delete USER             remove USER from GROUP
+  -h, --help                    display this help message and exit
+  -Q, --root CHROOT_DIR         directory to chroot into
+  -r, --delete-password         remove the GROUP's password
+  -R, --restrict                restrict access to GROUP to its members
+  -M, --members USER,...        set the list of members of GROUP
+  -A, --administrators ADMIN,...
+                                set the list of administrators for GROUP
+Except for the -A and -M options, the options cannot be combined.
+[root@3f94faee60c5 folderA]# gpasswd -M Salem,Norah,Deem HR
+[root@3f94faee60c5 folderA]# gpasswd -M Hanan,Khaled Sales
+[root@3f94faee60c5 folderA]# gpasswd -a Ali CEO
+Adding user Ali to group CEO
+[root@3f94faee60c5 folderA]# gpasswd -a Salem Manger
+Adding user Salem to group Manger
+[root@3f94faee60c5 folderA]# gpasswd -m Hanan,Khaled Sales
+gpasswd: invalid option -- 'm'
+Usage: gpasswd [option] GROUP
+
+Options:
+  -a, --add USER                add USER to GROUP
+  -d, --delete USER             remove USER from GROUP
+  -h, --help                    display this help message and exit
+  -Q, --root CHROOT_DIR         directory to chroot into
+  -r, --delete-password         remove the GROUP's password
+  -R, --restrict                restrict access to GROUP to its members
+  -M, --members USER,...        set the list of members of GROUP
+  -A, --administrators ADMIN,...
+                                set the list of administrators for GROUP
+Except for the -A and -M options, the options cannot be combined.
+[root@3f94faee60c5 folderA]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+unbound:x:998:996:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+me:x:1000:1001:added comment:/home/me:/bin/bash
+Ali:x:1001:1003:CEO:/home/Ali:/bin/bash
+Salem:x:1002:1004:HR, Manger:/home/Salem:/bin/bash
+Sara:x:1003:1005:Shipping:/home/Sara:/bin/bash
+Deem:x:1004:1006:HR Specialist:/home/Deem:/bin/bash
+Hanan:x:1005:1007:Sales representative:/home/Hanan:/bin/bash
+Naif:x:1006:1008:Shipping:/home/Naif:/bin/bash
+Norah:x:1007:1009:HR:/home/Norah:/bin/bash
+Khaled:x:1008:1010:Sale representative:/home/Khaled:/bin/bash
+[root@3f94faee60c5 folderA]# cat /etc/group
+root:x:0:
+bin:x:1:
+daemon:x:2:
+sys:x:3:
+adm:x:4:
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mem:x:8:
+kmem:x:9:
+wheel:x:10:
+cdrom:x:11:
+mail:x:12:
+man:x:15:
+dialout:x:18:
+floppy:x:19:
+games:x:20:
+tape:x:33:
+video:x:39:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+users:x:100:
+nobody:x:65534:
+dbus:x:81:
+utmp:x:22:
+utempter:x:35:
+input:x:999:
+kvm:x:36:
+render:x:998:
+systemd-journal:x:190:
+systemd-coredump:x:997:
+systemd-resolve:x:193:
+tss:x:59:
+unbound:x:996:
+students:x:1000:
+me:x:1001:
+students2:x:1002:
+Ali:x:1003:
+Salem:x:1004:
+Sara:x:1005:
+Deem:x:1006:
+Hanan:x:1007:
+Naif:x:1008:
+Norah:x:1009:
+Khaled:x:1010:
+CEO:x:1011:Ali
+Manger:x:1012:Salem
+HR:x:1013:Salem,Norah,Deem
+Shipping:x:1014:Sara,Naif
+Sales:x:1015:Hanan,Khaled
+[root@3f94faee60c5 folderA]# gpasswd CEO
+Changing the password for group CEO
+New Password: 
+Re-enter new password: 
+[root@3f94faee60c5 folderA]# gpasswd Manger
+Changing the password for group Manger
+New Password: 
+Re-enter new password: 
+[root@3f94faee60c5 folderA]# gpasswd HR
+Changing the password for group HR
+New Password: 
+Re-enter new password: 
+[root@3f94faee60c5 folderA]# gpasswd Shipping
+Changing the password for group Shipping
+New Password: 
+Re-enter new password: 
+[root@3f94faee60c5 folderA]# gpasswd Sales
+Changing the password for group Sales
+New Password: 
+Re-enter new password: 
+[root@3f94faee60c5 folderA]# cat /etc/group
+root:x:0:
+bin:x:1:
+daemon:x:2:
+sys:x:3:
+adm:x:4:
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mem:x:8:
+kmem:x:9:
+wheel:x:10:
+cdrom:x:11:
+mail:x:12:
+man:x:15:
+dialout:x:18:
+floppy:x:19:
+games:x:20:
+tape:x:33:
+video:x:39:
+ftp:x:50:
+lock:x:54:
+audio:x:63:
+users:x:100:
+nobody:x:65534:
+dbus:x:81:
+utmp:x:22:
+utempter:x:35:
+input:x:999:
+kvm:x:36:
+render:x:998:
+systemd-journal:x:190:
+systemd-coredump:x:997:
+systemd-resolve:x:193:
+tss:x:59:
+unbound:x:996:
+students:x:1000:
+me:x:1001:
+students2:x:1002:
+Ali:x:1003:
+Salem:x:1004:
+Sara:x:1005:
+Deem:x:1006:
+Hanan:x:1007:
+Naif:x:1008:
+Norah:x:1009:
+Khaled:x:1010:
+CEO:x:1011:Ali
+Manger:x:1012:Salem
+HR:x:1013:Salem,Norah,Deem
+Shipping:x:1014:Sara,Naif
+Sales:x:1015:Hanan,Khaled
+[root@3f94faee60c5 folderA]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+unbound:x:998:996:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+me:x:1000:1001:added comment:/home/me:/bin/bash
+Ali:x:1001:1003:CEO:/home/Ali:/bin/bash
+Salem:x:1002:1004:HR, Manger:/home/Salem:/bin/bash
+Sara:x:1003:1005:Shipping:/home/Sara:/bin/bash
+Deem:x:1004:1006:HR Specialist:/home/Deem:/bin/bash
+Hanan:x:1005:1007:Sales representative:/home/Hanan:/bin/bash
+Naif:x:1006:1008:Shipping:/home/Naif:/bin/bash
+Norah:x:1007:1009:HR:/home/Norah:/bin/bash
+Khaled:x:1008:1010:Sale representative:/home/Khaled:/bin/bash
+[root@3f94faee60c5 folderA]# cat /etc/shadow
+root:$6$4pez5eMXn3aOR0G3$zr6sODnhDZ2UnYOe/uFBflTku7oCVo1yd8aJg8eIkkHR3rj35y4wt6VxBzUhpgKECq13F8eATggt5MuBnCcz61:19499:0:99999:7:::
+bin:*:18397:0:99999:7:::
+daemon:*:18397:0:99999:7:::
+adm:*:18397:0:99999:7:::
+lp:*:18397:0:99999:7:::
+sync:*:18397:0:99999:7:::
+shutdown:*:18397:0:99999:7:::
+halt:*:18397:0:99999:7:::
+mail:*:18397:0:99999:7:::
+operator:*:18397:0:99999:7:::
+games:*:18397:0:99999:7:::
+ftp:*:18397:0:99999:7:::
+nobody:*:18397:0:99999:7:::
+dbus:!!:18885::::::
+systemd-coredump:!!:18885::::::
+systemd-resolve:!!:18885::::::
+tss:!!:19499::::::
+unbound:!!:19499::::::
+me:1234:19499:0:99999:7:::
+Ali:$6$v3uh5b9S7T.3MnRO$JYWd5Y3bNrXPPA4r4.B9lp/h357PZdtxDpaGqj9NomjwAYc1./53PGBDwmdzffdlXgq3kLs/ZdJAFpwUT5d0Z/:19500:0:99999:7:::
+Salem:$6$ygLzGXyiJd.cLJ7K$IgFT/o638anzqoY/Ux.zLG/TZppCC4PLfilIbkicYEhhkUOVXvu7avx1s.JhV69ACGh/QKn8fZ2R4.4jNDpiU.:19500:0:99999:7::20089:
+Sara:$6$PUt8BcjZxRR8BApF$XSma68PotetML/w3Y6fvrO64aNKuwNLuF4jCAHUV1lzFAQ6FGJ8n2dGQaSvVlIt.FqN9FsIpFZFp2/JAAbdX10:19500:0:99999:7::20089:
+Deem:$6$hSFc8jGMkWTgGBpc$820Jge7jAiz8eMGDF0RG6G67lyH1O8sOz5K1GPajUN1rQrmiSLWcg/6qXbDWrafAfGqF.l0cmEsJ/ZbwJ5mpV.:19500:0:99999:7::20089:
+Hanan:$6$uAV5TZmB2IQ5RecX$ASZwyZBb8coUPEGdtnO.QHPkUeuBpBWdmnz.K02qjRrrWy8rJV1rKJHNi0A5g73F.uGiCXHpbmG05RM7GujfM0:19500:0:99999:7::20089:
+Naif:$6$2roomah6SNkctY33$OFWBevlnxZhoncT3YKJlec00VidPvJGhIMybeF4jykAIax2cGpN67qQ21ULhR7Rg.f3vjwHZjolIf2MT8jlEO.:19500:0:99999:7::20089:
+Norah:$6$9QyTyO1Mwcq/jUyd$RbKZ0hCAh6pr38F3KiGdDlaTPD.hjIVMgpwe1Koua46JofKjfHRGBaNfFUQfI1LnT3sOgN8OMfFr3DLrxhqQw1:19500:0:99999:7::20089:
+Khaled:$6$.Pj1g5VLAvYBzAQS$ibEJgm57WADX9k2RR641JzxU6B9p.skebi0/ZmV9euTpxrR3B3haYFMJfE9jCb3T89n6f5R/xBBOt8zRrorpi1:19500:0:99999:7::20089:
+[root@3f94faee60c5 folderA]# history >> history.txt
+[root@3f94faee60c5 folderA]# 
