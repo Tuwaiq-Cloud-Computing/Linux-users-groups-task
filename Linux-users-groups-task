@@ -1,0 +1,91 @@
+    1  whoami
+    2  hostname
+    3  history
+    4  whoami
+    5  uptime
+    6  TZ="Asia/Dubai" date
+    7  date
+    8  clear
+    9  TZ="Asia/Dubai" date
+   10  cal > calender.txt
+   11  ls
+   12  echo "Oh there is an error" 2>> log.txt
+   13  ls
+   14  echo "Oh there is an error" 2>> logs.txt
+   15  ls
+   16  nano nasseribra.txt
+   17  touch nasser_ibra.txt
+   18  ls
+   19  nano  nasser_ibra.txt
+   20  vim nasser_ibra.txt 
+   21  vi nasser_ibra.txt 
+   22  cat nasser_ibra.txt 
+   23  wc -w nasser_ibra.txt
+   24  wc -w nasser_ibra.txt
+   25  who
+   26  w
+   27  sudo -lU root
+   28  su GGG
+   29  useradd Ali
+   30  useradd Salem
+   31  useradd Sara
+   32  useradd Deem
+   33  useradd Hanan
+   34  useradd Naif
+   35  useradd Norah
+   36  useradd Khaled
+   37  useradd -c "CEO" Ali
+   38  usermod -c "CEO" Ali
+   39  cat /etc/passwd
+   40* 
+   41  usermod -c "HR, Manager" Salem
+   42  usermod -c "HR, Shipping" Sara
+   43* usermod -c "HR, HR S" 
+   44  usermod -c "Shipping" Sara
+   45  usermod -c "HR Specialist" Deem
+   46  cat /etc/passwd
+   47  usermod -c "Sales representative" Hanan 
+   48  usermod -c "Shipping" Naif 
+   49  usermod -c "HR" Norah
+   50  usermod -c "Sales reoresentative" Khaled
+   51  cat /etc/passwd
+   52  useradd -e 2025-01-01 Salem
+   53  usermod -e 2025-01-01 Salem
+   54  usermod -e 2025-01-01 Sara
+   55  usermod -e 2025-01-01 Deem
+   56  usermod -e 2025-01-01 Hanan
+   57  usermod -e 2025-01-01 Naif
+   58  usermod -e 2025-01-01 Norah
+   59  usermod -e 2025-01-01 Khaled
+   60  passwd Ali
+   61  passwd Salem
+   62  passwd Sara
+   63  passwd Deem
+   64  passwd Hanan
+   65  passwd Naif
+   66  passwd Norah
+   67  passwd Khaled
+   68  groupadd CEO
+   69  groupadd Manager
+   70  groupadd HR
+   71  groupadd Shipping
+   72  groupadd Sales
+   73  usermod Ali -aG CEO
+   74  usermod Salem -aG Manager
+   75  usermod Salem,Norah,Deem -aG HR
+   76  usermod Salem, Norah, Deem -aG HR
+   77  usermod Salem -aG HR
+   78  usermod Norah -aG HR
+   79  usermod Deem -aG HR
+   80  usermod Sara -aG Shipping
+   81  usermod Naif -aG Shipping
+   82  usermod Hanan -aG Sales
+   83  usermod Khaled -aG Sales
+   84  gpasswd CEO
+   85  gpasswd HR
+   86  gpasswd Sales
+   87  cat /etc/passwd
+   88  cat /etc/shadow
+   89  cat /etc/group
+   90  history 
+   91  history > Linux-users-groups-task
