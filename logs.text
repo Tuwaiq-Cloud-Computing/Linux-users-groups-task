@@ -1,0 +1,35 @@
+    1  useradd -c "CEO" Ali
+    2  useradd -c "HR, Manager" -e 2025-01-01 Salem
+    3  useradd -c "Shipping" -e 2025-01-01 Sara
+    4  useradd -c "HR Specialist" -e 2025-01-01 Deem
+    5  useradd -c "Sales Representative" -e 2025-01-01 Hanan
+    6  useradd -c "Shipping" -e 2025-01-01 Naif
+    7  useradd -c "HR" -e 2025-01-01 Nora
+    8  useradd -c "Sales Representative" -e 2025-01-01 Khalid
+    9  passwd Ali
+   10  passwd Salem
+   11  passwd Sara
+   12  passwd Deem
+   13  passwd Hanan
+   14  passwd Naif
+   15  passwd Nora
+   16  passwd Khalid
+   17  groupadd CEO
+   18  groupadd Manager
+   19  groupadd HR
+   20  groupadd Shipping
+   21  groupadd Sales
+   22  gpasswd CEO
+   23  gpasswd Manager
+   24  gpasswd HR
+   25  gpasswd Shipping
+   26  gpasswd Sales
+   27  gpasswd -a Ali CEO
+   28  gpasswd -a Salem Manager
+   29  gpasswd -M Salem,Nora,Deem HR
+   30  gpasswd -M Sara,Naif Shipping
+   31  gpasswd -M Hanan,Khalid Sales
+   32  tail -8 /etc/passwd
+   33  tail -8 /etc/shadow
+   34  tail -5 /etc/group
+   35  history
