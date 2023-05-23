@@ -1,16 +1,3 @@
-# Linux-users-groups-task
-
-- Create users and add the following informaion to them
-
-<img width="446" alt="users" src="https://user-images.githubusercontent.com/122549289/213204793-56a86de2-b13b-49fd-b823-e98651789103.PNG">
-
-## After creating users:
-  - Create 5 groups and add each user to its respective group.
-  - Add this password **Alibabastudent001** to CEO,HR, and SALES groups 
- 
-  <img width="446" alt="groups" src="https://user-images.githubusercontent.com/122549289/213204870-c2d2e747-3248-4493-844f-e5620d7995aa.PNG">
-
-## Submission:
-
-After finishing the lab take screen shots of the /etc/passwd & /etc/shadow & /etc/group. Then save history output to a file and then upload the three pictures and the text file to the forked repo and then create a pull request. 
-
+<img width="532" alt="Screen Shot 2023-05-23 at 7 29 36 PM" src="https://github.com/ram1050/Linux-users-groups-task/assets/74604230/eca52b02-ac93-4351-90f6-4738b2cfd7aa">
+<img width="402" alt="Screen Shot 2023-05-23 at 7 29 20 PM" src="https://github.com/ram1050/Linux-users-groups-task/assets/74604230/6f9f823b-d1b5-472e-9865-3913b3c0c815">
+<img width="1134" alt="Screen Shot 2023-05-23 at 7 28 46 PM" src="https://github.com/ram1050/Linux-users-groups-task/assets/74604230/3654db6c-a62c-4690-974a-004858c0c94f">
