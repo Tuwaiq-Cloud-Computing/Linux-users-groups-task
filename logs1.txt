@@ -1,0 +1,116 @@
+    1  exit
+    2  whoami
+    3  hostname
+    4  who
+    5  w
+    6  exit
+    7  cd /etc/yum.repos.d/
+    8  sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+    9  sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+   10  yum update -y
+   11  cd home/folder1/
+   12  cd ..
+   13  cd home/folderA/
+   14  mkdir folderA
+   15  cd home/folderA/
+   16  cd home/folder1/
+   17  cd folder1
+   18  head -n 5 /etc/
+   19  cd ..
+   20  user cat
+   21  yum install passwd
+   22  head -n 5 /etc/
+   23  head -n 5 /etc/passwd
+   24  cd /etc
+   25  ls
+   26  head -5 passwd
+   27  useradd -p "123456789" test1-9
+   28  useradd -e 2023-12-12 test1-9
+   29  usermod -e 2023-12-12 test1-9
+   30  head -5 passwd
+   31  sudo head -5 passwd
+   32  passwd username
+   33  passwd test1-9
+   34  useradd test-moh
+   35  groupadd g1
+   36  groupadd g2
+   37  usermod test1-9 -aG g1,g2
+   38  cat /etc/group
+   39  tail -n 2 /etc/group
+   40  groupmems -g g1-l
+   41  groupmems -g g2-l
+   42  groupmems -g g2 -l
+   43  gpasswd -a g1
+   44  gpasswd -a root
+   45  gpasswd -M test1-9,test_moh
+   46  gpasswd -M test1-9,test-moh
+   47  gpasswd -M test1-9 , test-moh
+   48  gpasswd -M test1-9 , test-moh g1
+   49  gpasswd -M test1-9,test-moh g2[B
+   50  cat /etc/group
+   51  passwd root
+   52  passwd root
+   53  exit
+   54  sudo -lUt
+   55  sodu -lU root
+   56  sodu -lU root
+   57  sodu -lU root
+   58  sodu -lU root
+   59  sodu -lu root
+   60  sodu -lU root/
+   61  sodu -lU root/
+   62  sodu -IU root/
+   63  sodu -lU root
+   64  sudo -lU root
+   65  sudo -lU test1-9
+   66  cd etc/
+   67  sudo -lU root
+   68  cat /etc/shadow
+   69  sudo -lU root
+   70  yum install sudo
+   71  sudo -lU root
+   72  useradd -e Ali
+   73  useradd -e 2025-01-01 Ali
+   74  userdel Ali
+   75  useradd Ali
+   76  userdel -r Ali
+   77  useradd Ali
+   78  useradd -e 2025-01-01 Salem
+   79  useradd -e 2025-01-01 Sara
+   80  useradd -e 2025-01-01 Deem
+   81  useradd -e 2025-01-01 Hanan
+   82  useradd -e 2025-01-01 Naif
+   83  useradd -e 2025-01-01 Norah
+   84  useradd -e 2025-01-01 Khaled
+   85  passwd Ali
+   86  passwd Salem
+   87  passwd Sara
+   88  passwd Deem
+   89  passwd Hanan
+   90  passwd Naif
+   91  passwd Norah
+   92  passwd Khaled
+   93  groupadd CEO Ali
+   94  groupadd CEO
+   95* 
+   96  groupadd Manager
+   97  groupadd HR
+   98  groupadd Shipping
+   99  groupadd Sales
+  100  usermod Ali -aG CEO
+  101  usermod Salem -aG HR,Manager
+  102  usermod Sara -aG Shipping
+  103  groupmems -g CEO -l
+  104  usermod Deem -aG HR
+  105  usermod Hanan -aG Sales
+  106  usermod Naif -aG Shipping
+  107  usermod Norah -aG HR
+  108  usermod Khaled -aG Sales
+  109  groupmems -g HR -l
+  110  gpasswd CEO
+  111  gpasswd HR
+  112  gpasswd Sales
+  113  cat /etc/passwd
+  114  cat /etc/shadow
+  115  cat /etc/group
+  116  history >> logs1.txt
