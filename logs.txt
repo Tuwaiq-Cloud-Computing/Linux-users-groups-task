@@ -1,0 +1,201 @@
+    1  Øhajar4aloqaily
+    2  cd /etc/yum.repos.d/
+    3  sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+    4  sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+    5  yum update -y
+    6  yum install man
+    7  yum install passed
+    8  yum install passwd
+    9  till -n/etc/passwd
+   10  tail -n/etc/passwd
+   11  tail -n5/etc/passwd
+   12  tail -n 5/etc/passwd
+   13  grep root/etc/passwd
+   14  cd ..
+   15  cd ..
+   16  cd home/
+   17  ls
+   18  useradd ali
+   19  usermod -c 'CEO' ali
+   20  alibaba@s1 ali
+   21  passwd
+   22  passwd ali
+   23  useradd Salem
+   24  usermod -c 'HR,Manager' Salem
+   25  passwd Salem
+   26  chage -E 2025-01-01 Salem
+   27  useradd Sara
+   28  usermod -c 'Shipping' Sara
+   29  passwd Sara
+   30  chage -E 2025-01-01 Sara
+   31  useradd Deem
+   32  usermod -c 'HR Specialist' Deem
+   33  passwd Deem
+   34  chage -E 2025-01-01 Deem
+   35  useradd Hanan
+   36  usermod -c 'Sales representative' Hanan 
+   37  passwd Hanan
+   38  chage -E 2025-01-01 Hanan
+   39  useradd Naif
+   40  usermod -c 'Shipping' Naif 
+   41  passwd Naif
+   42  chage -E 2025-01-01 Naif
+   43  useradd Norah
+   44*  
+   45  passwd Norah
+   46  chage -E 2025-01-01 Norah
+   47  useradd Khaled
+   48  usermod -c 'Sales representative' Khaled
+   49  passwd Khaled
+   50  chage -E 2025-01-01 Khaled
+   51  groupadd CEO
+   52  usermod ali -aG CEO
+   53  usermod Manger-aG Salem
+   54  usermod ali -aG CEO
+   55  usermod Salem-aG Manger
+   56  usermod Salem-aG Manager
+   57  usermod Salem-aG HR
+   58  usermod Salem,Norah,Deem -aG HR
+   59  Ùgroupadd CEO
+   60  groupadd CEO
+   61  groupadd Manager
+   62  groupadd HR
+   63  groupadd Shipping
+   64  groupadd Sales
+   65  usermod Ali -aG CEO
+   66  usermod Salem -aG Manager
+   67  usermod ali -aG CEO
+   68  usermod Salem,Norah,Deem -aG HR
+   69  usermod Salem -aG HR
+   70  usermod Norah -aG HR
+   71  usermod Deem -aG HR
+   72  usermod Sara -aG Shipping
+   73  usermod SNaif-aG Shipping
+   74  usermod Naif-aG Shipping
+   75  usermod Hanan-aG Sales
+   76  usermod Khaled-aG Sales
+   77  Alibabastudent001-M CEO 
+   78  Alibabastudent001 -M CEO 
+   79  gAlibabastudent001 -M CEO 
+   80  gpasswd -M Salem,Norah, Deem HR
+   81  gpasswd -M Salem HR
+   82  gpasswd -M Norah HR
+   83  gpasswd -M Deem HR
+   84  gpasswd -M Sara Shipping
+   85  gpasswd -M Naif Shipping
+   86  gpasswd -M Hanan Sales
+   87  gpasswd -M Khaled Sales
+   88  gpasswd CEO
+   89  gpasswd HR
+   90  gpasswd Sales
+   91  cat /etc/passwd
+   92  cat /etc/shadow
+   93  cat /etc/group
+   94  usermod Hanan-aG Sales
+   95  usermod Hanan -aG Sales
+   96  usermod Sara -aG Shipping
+   97  usermod Salem -aG HR
+   98  usermod Norah -aG HR
+   99  cat /etc/group
+  100  history>>logs.txt
+    1  Øhajar4aloqaily
+    2  cd /etc/yum.repos.d/
+    3  sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+    4  sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+    5  yum update -y
+    6  yum install man
+    7  yum install passed
+    8  yum install passwd
+    9  till -n/etc/passwd
+   10  tail -n/etc/passwd
+   11  tail -n5/etc/passwd
+   12  tail -n 5/etc/passwd
+   13  grep root/etc/passwd
+   14  cd ..
+   15  cd ..
+   16  cd home/
+   17  ls
+   18  useradd ali
+   19  usermod -c 'CEO' ali
+   20  alibaba@s1 ali
+   21  passwd
+   22  passwd ali
+   23  useradd Salem
+   24  usermod -c 'HR,Manager' Salem
+   25  passwd Salem
+   26  chage -E 2025-01-01 Salem
+   27  useradd Sara
+   28  usermod -c 'Shipping' Sara
+   29  passwd Sara
+   30  chage -E 2025-01-01 Sara
+   31  useradd Deem
+   32  usermod -c 'HR Specialist' Deem
+   33  passwd Deem
+   34  chage -E 2025-01-01 Deem
+   35  useradd Hanan
+   36  usermod -c 'Sales representative' Hanan 
+   37  passwd Hanan
+   38  chage -E 2025-01-01 Hanan
+   39  useradd Naif
+   40  usermod -c 'Shipping' Naif 
+   41  passwd Naif
+   42  chage -E 2025-01-01 Naif
+   43  useradd Norah
+   44*  
+   45  passwd Norah
+   46  chage -E 2025-01-01 Norah
+   47  useradd Khaled
+   48  usermod -c 'Sales representative' Khaled
+   49  passwd Khaled
+   50  chage -E 2025-01-01 Khaled
+   51  groupadd CEO
+   52  usermod ali -aG CEO
+   53  usermod Manger-aG Salem
+   54  usermod ali -aG CEO
+   55  usermod Salem-aG Manger
+   56  usermod Salem-aG Manager
+   57  usermod Salem-aG HR
+   58  usermod Salem,Norah,Deem -aG HR
+   59  Ùgroupadd CEO
+   60  groupadd CEO
+   61  groupadd Manager
+   62  groupadd HR
+   63  groupadd Shipping
+   64  groupadd Sales
+   65  usermod Ali -aG CEO
+   66  usermod Salem -aG Manager
+   67  usermod ali -aG CEO
+   68  usermod Salem,Norah,Deem -aG HR
+   69  usermod Salem -aG HR
+   70  usermod Norah -aG HR
+   71  usermod Deem -aG HR
+   72  usermod Sara -aG Shipping
+   73  usermod SNaif-aG Shipping
+   74  usermod Naif-aG Shipping
+   75  usermod Hanan-aG Sales
+   76  usermod Khaled-aG Sales
+   77  Alibabastudent001-M CEO 
+   78  Alibabastudent001 -M CEO 
+   79  gAlibabastudent001 -M CEO 
+   80  gpasswd -M Salem,Norah, Deem HR
+   81  gpasswd -M Salem HR
+   82  gpasswd -M Norah HR
+   83  gpasswd -M Deem HR
+   84  gpasswd -M Sara Shipping
+   85  gpasswd -M Naif Shipping
+   86  gpasswd -M Hanan Sales
+   87  gpasswd -M Khaled Sales
+   88  gpasswd CEO
+   89  gpasswd HR
+   90  gpasswd Sales
+   91  cat /etc/passwd
+   92  cat /etc/shadow
+   93  cat /etc/group
+   94  usermod Hanan-aG Sales
+   95  usermod Hanan -aG Sales
+   96  usermod Sara -aG Shipping
+   97  usermod Salem -aG HR
+   98  usermod Norah -aG HR
+   99  cat /etc/group
+  100  history>>logs.txt
+  101  history>>logs.txt
