@@ -1,0 +1,169 @@
+    1  whoami
+    2  hostname
+    3  history
+    4  hostname
+    5  uptime
+    6  TZ=Asia/Dubai date
+    7  cal 1> calendar.txt
+    8  cat calendar.txt
+    9  echos "Oh there is an error" 2> logs.txt
+   10  cat logs.txt
+   11  /etc/yum.repos.d/
+   12  clear
+   13  cd /etc/yum.repos.d/
+   14  sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+   15  sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+   16  yum update -y
+   17  yum install man
+   18  man ls
+   19  cd ..
+   20  cd ..
+   21  cd home/fOlderH/
+   22  cd home/folderH/
+   23  cd home/floderH/
+   24  yum install passwd
+   25  cd ..
+   26  cd ..
+   27  cd home/folderH/
+   28  cd 
+   29  cd ..
+   30  cd..
+   31  cd ..
+   32  cd ..
+   33  cd home/folderH/
+   34  grep root /etc/passwd
+   35  useradd haloli
+   36  clear
+   37  yum install clear
+   38  whoami
+   39  cd ..
+   40  cd ..
+   41  cd home/folderHA/
+   42  yum install passwd
+   43  passwd hh
+   44  docker start -ai halla
+   45  whoami
+   46  yum install passwd
+   47  useradd -p "123" aaa
+   48  yum install passwd
+   49  yum install man
+   50  cd home/folderH/
+   51  ls
+   52  cd folderH
+   53  cd ~
+   54  folderH
+   55  LS
+   56  ls
+   57  ls
+   58  whoami
+   59  cd ..
+   60  ls
+   61  touch fileH
+   62  ls
+   63  cd home/fileH/
+   64  whoami
+   65  mkdir folderH
+   66  cd ..
+   67  cd home/folderH/
+   68  LS
+   69  ls
+   70  cd home/
+   71  ls
+   72  cd home/hloli/
+   73  cd home/haloli/
+   74  cd home/haloli/
+   75  cd /home/haloli/
+   76  groupadd halo11
+   77  groupadd halo22
+   78  cat /etc/group
+   79  groupadd halo11
+   80  sudo usermod JOUDI -aG halo11,halo22
+   81  yum install sudo
+   82  sudo usermod JOUDI -aG halo11,halo22
+   83  sudo usermod hhhhaaa -aG halo11,halo22
+   84  useradd JOUDI 
+   85  sudo usermod JOUDI -aG halo11,halo22
+   86  gpasswd halo11
+   87  cat /etc/group
+   88  tail -n 2 /etc/group
+   89  tail -n 1 /etc/group
+   90  cat /etc/group
+   91  yum install clear
+   92  useradd user1
+   93  useradd user2
+   94  cat /etc/groub/
+   95  cat /etc/group/
+   96  cat /etc/group
+   97  whoami
+   98  exit
+   99  passwd
+  100  whoami
+  101  exit 
+  102  whoami
+  103  exit
+  104  yum install sudo
+  105  whoami
+  106  exit 
+  107  extit
+  108  exit
+  109  useradd ali
+  110  whoami
+  111   useradd Ali
+  112  useradd Salem
+  113  useradd Sara
+  114  useradd Deem
+  115  useradd Hanan
+  116  useradd Naif
+  117  useradd Nourah
+  118  useradd Khaled
+  119  cat /etc/user
+  120  cat /etc/users
+  121  whoami
+  122  useradd -c "CEO" Ali
+  123  hitory
+  124  useradd -c "CEO" Ali
+  125  useradd -c "HR, Manager" -e 2025-01-01 Salem
+  126  useradd -c "Shipping" -e 2025-01-01 Sara
+  127  useradd -c "HR Specialit" -e 2025-01-01 Hanan
+  128  useradd -c "Sales Representive" -e 2025-01-01 Hanan
+  129  useradd -c "Shipping" -e 2025-01-01 Naif
+  130  useradd -c "HR" -e 2025-01-01 Nora
+  131  useradd -c "Sales Representive" -e 2025-01-01 Khaled
+  132  cat /etc/passwd
+  133  passwd Ali
+  134  passwd Salem
+  135  passwd Sara
+  136  passwd Deem
+  137  passwd Hanan
+  138  passwd Naif
+  139  passwd Nourah
+  140  passwd Khaled
+  141  cat /etc/passwd
+  142  cat /etc/shadow
+  143  groupadd CEO
+  144  groupadd Manager
+  145  groupadd HR
+  146  groupadd Shipping
+  147  groupadd Sales
+  148  gpasswd -a Ali CEO
+  149  gpasswd -a Salem Manager
+  150  gpasswd -a Salem HR
+  151  gpasswd -a Nourah HR
+  152  gpasswd -a Deem HR
+  153  gpasswd -a Sara Shipping
+  154  gpasswd -a Naif Shipping
+  155  gpasswd -a Hanan Sales
+  156  gpasswd -a Khaled Sales
+  157  gpasswd CEO
+  158  gpasswd CEO
+  159  gpasswd HR
+  160  gpasswd SALES
+  161  gpasswd Sales
+  162  cat /etc/passwd
+  163  cat /etc/shadow
+  164  cat /etc/group
+  165  pwd
+  166  cd ..
+  167  cd home
+  168  history
+  169  history >> log.txt
