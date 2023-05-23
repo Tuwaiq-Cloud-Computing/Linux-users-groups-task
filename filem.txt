@@ -1,0 +1,82 @@
+    1  exit
+    2  cd /etc/yum.repos.d/
+    3        --tlscacert string   Trust certs signed only by this CA (default
+    4                             "C:\\Users\\fq\\.docker\\ca.pem")
+    5  sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+    6  sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+    7  yum update -y
+    8  cd ..
+    9  cd ..
+   10  cd home
+   11  mkdir folder1
+   12  cd folder1/
+   13  yum install man
+   14  sudou useradd Ali
+   15  yum install sduo
+   16  yum install sudo
+   17  sudo useradd Ali
+   18  useradd Ali
+   19  useradd Salem
+   20  useradd Sara
+   21  useradd Deem
+   22  useradd Hanan 
+   23  useradd Naif
+   24  useradd Norah 
+   25  useradd Khaled
+   26  usermod -c 'CEO' Ali
+   27  usermod -c 'HR, Manager' Salem
+   28  usermod -c 'Shipping' Sara
+   29  usermod -c 'HR Specialit' Sara 
+   30  useradd Norah 
+   31  userdel  Sara
+   32  useradd Sara
+   33  cat /etc/passwd
+   34  usermod -c 'HR Specialist' Deem
+   35  usermod -c 'Sales represenative' Hanan
+   36  usermod -c 'Shipping' Naif
+   37  usermod -c 'HR' Norah
+   38  usermod -c 'sales representative' Khaled
+   39  passwd Ali
+   40  yum install passwd
+   41  passwd Ali
+   42  passwd Ali
+   43  yum passwd
+   44  yum install 'passwd'
+   45  passwd Ali
+   46  yum install passwd
+   47  passwd Ali
+   48  yum install passwd
+   49  yum install passwd
+   50  passwd Ali
+   51  passwd Salem
+   52  passwd Sara
+   53  passwd Deem 
+   54  passwd Hanan
+   55  passwd Naif
+   56  passwd Norah
+   57  passwd Khaled 
+   58  chage -E 2025-01-01 Ali
+   59  chage -E 2025-01-01 Salem
+   60  chage -E 2025-01-01 Sara
+   61  chage -E 2025-01-01 Deem
+   62  chage -E 2025-01-01 Hanan
+   63  chage -E 2025-01-01 Naif
+   64  chage -E 2025-01-01 Norah
+   65  chage -E 2025-01-01 Khaled
+   66  groupadd  CEO 
+   67  groupadd  Manager
+   68  groupadd  HR
+   69  groupadd  Shipping
+   70  groupadd  Sales
+   71  gpasswd CEO
+   72  gpasswd HR
+   73  gpasswd Sales
+   74  gpasswd -a Ali CEO
+   75  gpasswd -a Salem Manager
+   76  gpasswd -M Salem,Norah,Deem  HR
+   77  gpasswd -M Sara,Naif Shipping
+   78  gpasswd -M Hanan,Khaled Sales
+   79  cat /etc/passwd
+   80  cat /etc/shadow
+   81  cat /etc/group
+   82  history 1> filem.txt
