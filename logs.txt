@@ -1,0 +1,74 @@
+    1  docker rename gallant_mahavira waleed
+   23  useradd -c "CEO" -p"alibaba@s1" Ali
+   24  cat /etc/users
+   25  cat /etc/shadow
+   26  cat /etc/passwd
+   27  cat /etc/dhadow
+   28  cat /etc/shadow
+   29  cat /etc/passwd
+   30  cat /etc/shadow
+   31  usermod -p "alibaba@s1" Ali
+   32  cat /etc/shadow
+   33  passwd Ali
+   34  cat /etc/shadow
+   35  useradd -c "HR, Manager" Salem
+   36  useradd -c "Shipping" Sara
+   37  useradd -c "HR Specialist" Deem
+   38* usermod -e 
+   39* useradd -c
+   40  useradd -c "HR" Norah
+   41  useradd -c "Sales representative" Khaled
+   42  cat /etc/shadow
+   43  cat /etc/passwd
+   44  passwd Salem
+   45  passwd Sara
+   46  passwd Deem
+   47  passwd Hanan
+   48  passwd Naif
+   49  passwd Norah
+   50  passwd Khaled
+   51  useradd -e 2025-1-1 Salem
+   52  usermod -e 2025-1-1 Salem
+   53  cat /etc/passwd
+   54  chage -l Salem
+   55  chage -l Salem,Ali
+   56  usermod -e 2025-1-1 Sara
+   57  usermod -e 2025-1-1 Deem
+   58  usermod -e 2025-1-1 Hanan
+   59  usermod -e 2025-1-1 Naif
+   60  usermod -e 2025-1-1 Norah
+   61  usermod -e 2025-1-1 Khaled
+   62  chage -l passwd
+   63  chage -l Sara
+   64  chage -l Deem
+   65  chage -l Khaled
+   66  cat /etc/passwd
+   67  cat /etc/shadow
+   68  groupadd CEO
+   69  cat /etc/group
+   70  groupadd Manager
+   71  groupadd HR
+   72  groupadd Shippong
+   73  groupadd Sales
+   74  usermod Salem -aG Manager,HR
+   75  usermod Norah -a HR
+   76  gpasswd -a HR Norah
+   77  gpasswd -a Norah HR
+   78  gpasswd -a Deem HR
+   79  gpasswd -a Sara Shipping
+   80  cat /etc/group
+   81  groupmod -n Shipping shippong
+   82  groupmod -n Shipping Shippong
+   83  cat /etc/group
+   84  gpasswd -a Sara Shipping
+   85  gpasswd -a Naif Shipping
+   86  gpasswd -a Hanan Sales
+   87  gpasswd -a Khaled Sales
+   88  history >> logs.txt
+   89  gpasswd CEO
+   90  gpasswd HR
+   91  gpasswd Sales
+   92  cat /etc/passwd
+   93  cat /etc/shadow
+   94  cat /etc/group
+   95  history >> logs.txt
