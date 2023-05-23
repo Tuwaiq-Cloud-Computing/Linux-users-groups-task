@@ -1,0 +1,85 @@
+    1  adduser
+    2  useradd -c "CEO" Ali
+    3  useradd -c "HR, Manager" -e 2025-01-01 Salem
+    4  useradd -c "Shipping" -e 2015-01-01 Sara
+    5  useradd -c "HR, Specialist" -e 2015-01-01 Deem 
+    6  useradd -c "Sales representative" -e 2015-01-01 Hanan
+    7  userdel Ali
+    8  userdel Salem
+    9  userdel Sara
+   10  userdel Deem
+   11  userdel Hanan
+   12  mkdir folderA
+   13  cd folderA
+   14  cd ..
+   15  pwd
+   16  ls
+   17  cd /home
+   18  ls
+   19  cd home
+   20  cat /etc/passwd
+   21  useradd amal
+   22  cat /etc/passwd
+   23  mkdir folder1
+   24  cd folder1
+   25  pwd
+   26  useradd -c "CEO" Ali
+   27  useradd Ali
+   28  usermod -c "CEO" Ali
+   29  cat /etc/passwd
+   30  useradd -c "HR, Manager" -e 2025-01-01 Salem
+   31  cat /etc/passwd
+   32  useradd -c "Shipping" -e 2015-01-01 Sara
+   33  useradd -c "HR, Specialist" -e 2015-01-01 Deem 
+   34  useradd -c "Sales representative" -e 2015-01-01 Hanan
+   35  useradd -c "Shipping" -e 2015-01-01 Naif 
+   36  useradd -c "HR" -e 2015-01-01 Norah 
+   37  useradd -c "Sales representative" -e 2015-01-01 Khaled 
+   38  passwd Ali
+   39  passwd Salem
+   40  yum install passwd
+   41  yum install -y passwd
+   42  cd /etc/yum.repos.d/
+   43  sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+   44  sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+   45  yum update -y
+   46  yum install passwd
+   47  yum install man
+   48  passwd Ali
+   49  passwd Salem
+   50  passwd Sara
+   51  passwd Deem
+   52  passwd Hanan
+   53  passwd Naif
+   54  passwd Norah
+   55  passwd Khaled
+   56  cat /etc/passwd
+   57  groupadd CEO 
+   58  groupadd Manager
+   59  groupadd HR
+   60  groupadd Shipping
+   61  groupadd Sales
+   62  sudo usermod -a-G CEO Ali
+   63  sudo usermod -aG CEO Ali
+   64  yum install sudo
+   65  sudo usermod -a-G CEO Ali
+   66  sudo usermod -aG CEO Ali
+   67  tail -n 2 /etc/group
+   68  sudo usermod -aG CEO Ali
+   69  sudo usermod Salem -aG Manager,HR
+   70  sudo usermod -aG HR Norah
+   71  sudo usermod -aG HR Deem
+   72  sudo usermod -aG Shipping Sara
+   73  sudo usermod -aG Shipping Naif
+   74  sudo usermod -aG Sales Hanan 
+   75  sudo usermod -aG Sales Khaled
+   76  cat /etc/gpasswd
+   77  cd /etc
+   78  ls
+   79  cat /etc/gshadow
+   80  passwd CEO
+   81  gpasswd CEO
+   82  gpasswd HR
+   83  gpasswd Sales
+   84  cat /etc/passwd
+   85  history >> log.txt
