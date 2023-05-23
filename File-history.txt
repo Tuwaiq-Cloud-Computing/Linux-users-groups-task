@@ -1,0 +1,38 @@
+    1  useradd -c "CEO" Ali
+    2  useradd -c "CEO" ALI
+    3  passwd ALI
+    4  useradd -c "HR,Manager" -e 2025-01-01 Saleem
+    5  passwd Saleem
+    6  useradd -c "Shipping" -e 2025-01-01 Saraa
+    7  passwd Saraa
+    8  useradd -c "HR, Specialist" -e 2025-01-01 Deem
+    9  passwd Deem
+   10  useradd -c "Sales representative" -e 2025-01-01 Hanan
+   11  passwd Hanan
+   12  useradd -c "Shipping" -e 2025-01-01 Naif
+   13  passwd Naif
+   14  useradd -c "HR" -e 2025-01-01 Nourah
+   15  passwd Nourah
+   16  useradd -c "Sales representative" -e 2025-01-01 Khaled
+   17  passwd Khaled
+   18  groupadd CEO
+   19  groupadd Manager
+   20  groupadd HR
+   21  groupadd Shipping
+   22  groupadd Sales
+   23  passwd CEO
+   24  gpasswd CEO
+   25  passwd HR
+   26  gpasswd HR
+   27  gpasswd Sales
+   28  gpasswd -a ALI CEO
+   29  gpasswd -a Saleem Manager
+   30  gpasswd -aG Saleem,Nourah,Deem HR
+   31  gpasswd -aM Saleem,Nourah,Deem HR
+   32  gpasswd -M Saleem,Nourah,Deem HR
+   33  gpasswd -M Saraa,Naif Shipping
+   34  gpasswd -M Hanan,Khaled Sales
+   35  cat /etc/passwd
+   36  cat /etc/shadow
+   37  cat /etc/group
+   38  history 1> File-history.txt
