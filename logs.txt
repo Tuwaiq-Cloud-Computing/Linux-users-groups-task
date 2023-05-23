@@ -1,0 +1,52 @@
+    1  mkdir users-groups
+    2  cd users-groups
+    3  yum install sudo
+    4  pwd
+    5  sudo useradd -c "CEO" Ali
+    6  cat /etc/passwd | grep Ali
+    7  sudo useradd -c "CEO" Ali -e 2025-01-01
+    8  sudo useradd -e 2025-01-01 Ali
+    9  sudo useradd -c "CEO" Ali1 -e 2025-01-01
+   10  sudo useradd -c "HR,Manager" Salem -e 2025-01-01
+   11  sudo useradd -c "Shopping" Sara -e 2025-01-01
+   12  sudo useradd -c "HR Specialist" deem -e 2025-01-01
+   13  sudo useradd -c "Sales representative" Hanan  -e 2025-01-01
+   14  sudo useradd -c "Shopping" Naif -e 2025-01-01
+   15  sudo useradd -c "HR" Norah -e 2025-01-01
+   16  sudo useradd -c "Sales representative" Khaled -e 2025-01-01
+   17  passwd Ali1
+   18  passwd Salem 
+   19  passwd Sara 
+   20  passwd Deem 
+   21  passwd deem 
+   22  passwd Hanan 
+   23  passwd Naif 
+   24  passwd Khaled 
+   25  groupadd CEO 
+   26  groupadd Manager
+   27  groupadd HR
+   28  groupadd Shipping
+   29  groupadd Sales
+   30  usermod -"Shipping" Naif
+   31  usermod -c "Shipping" Naif
+   32  usermod -c "Shipping" Sara
+   33  sudo usermod -a -G CEO Ali
+   34  sudo usermod -a -G Manager Salem
+   35  sudo usermod -a -G -M HR Salem,Norah,deem
+   36  sudo usermod -a -G  HR Salem,Norah,deem
+   37  cat /etc/shadow
+   38  sudo usermod -a -G  HR Salem
+   39  sudo usermod -a -G  HR Norah
+   40  sudo usermod -a -G  HR deem
+   41  sudo usermod -a -G  Shipping Sara
+   42  sudo usermod -a -G  Shipping Naif
+   43  sudo usermod -a -G  Sales Hanan 
+   44  sudo usermod -a -G  Sales Khaled
+   45   gpasswd CEO
+   46   gpasswd HR
+   47   gpasswd Sales
+   48  /etc/passwd 
+   49  cat /etc/passwd 
+   50  cat /etc/shadow
+   51  cat /etc/group
+   52  history >> logs.txt
