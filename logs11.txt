@@ -1,0 +1,91 @@
+    1  docker rename magical_brattainr zaid
+    2  [root@autocontroller ~]# cd /etc/yum.repos.d/
+    3  [root@autocontroller ~]# sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+    4  sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+    5  yum update -y
+    6  cd home/folderA/
+    7  cd
+    8  cd home/folderA/
+    9  yum install passwd
+   10  head -n 5 /etc/passwd
+   11  grep root /etc/passwd
+   12  useradd -c "new user" -e 2025-01-01 zz
+   13  chage -l zz
+   14  usermod c "hello" zz
+   15  userdel zz
+   16  yum install
+   17  useradd -p "111222333"aaa
+   18  cat /etc/shadow
+   19  useradd -p "111222333" aaa
+   20  cat /etc/shadow
+   21  groupadd newGroup
+   22  cat /etc/group
+   23  groupadd alibaba
+   24  sudo usermod az -aG newGroup,alibaba
+   25  man usermod
+   26  yum install sudo
+   27  sudo usermod az -aG newGroup,alibaba
+   28  sudo usermod zz -aG newGroup,alibaba
+   29  sudo usermod aa -aG newGroup,alibaba
+   30  useradd zz
+   31  sudo usermod zza -aG newGroup,alibaba
+   32  sudo usermod zz -aG newGroup,alibaba
+   33  sudo usermod zz -aG newGroup,alibaba
+   34  man usermod
+   35  yum istall man
+   36  yum install man
+   37  man usermod
+   38  exit
+   39  cd /etc/yum.repos.d/
+   40  sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+   41  useradd -p "123" ali
+   42  passwd ali "123"
+   43  passwd ali
+   44  yum install passwd
+   45  passwd ali 
+   46  passwd salem
+   47  useradd -p "123" salem
+   48  useradd -p "123" sara
+   49  useradd -p "123" deem
+   50  useradd -p "123" hanan
+   51  useradd -p "123" naif
+   52  useradd -p "123" norah
+   53  useradd -p "123" khaled
+   54  groupadd ceo
+   55  groupadd hr
+   56  groupadd shipping
+   57  groupadd hrsp
+   58  groupadd sales
+   59  groupadd shipping
+   60  groupadd 
+   61  sudo ceo -a -g ali
+   62  studo usermod ceo ali
+   63  studo cat /etc/shadwo
+   64  studo cat//etc/shadow
+   65  pwd
+   66  sudo usermod -a -G ceo ali
+   67  sudo usermod -a -G hr salem
+   68  sudo usermod -a -G manger salem
+   69  groupadd manger
+   70  sudo usermod -a -G manger salem
+   71  sudo usermod -a -G hr norah , deem
+   72  sudo usermod -a -G hr norah
+   73  sudo usermod -a -G hr deem
+   74  sudo usermod -a -G shipping sara
+   75  sudo usermod -a -G shipping naif
+   76  sudo usermod -a -G sales hanan
+   77  sudo usermod -a -G sales khaled
+   78  usermod -e 2025-01-01 salem
+   79  usermod -e 2025-01-01 sara
+   80  usermod -e 2025-01-01 deem
+   81  usermod -e 2025-01-01 hanan
+   82  usermod -e 2025-01-01 naif
+   83  usermod -e 2025-01-01 norah
+   84  usermod -e 2025-01-01 khaled
+   85  gpasswd ceo
+   86  gpasswd hr
+   87  gpasswd sales
+   88  cat /etc/passwd 
+   89  cat /etc/shadow
+   90  cat /etc/group
+   91  history >> logs11.txt
