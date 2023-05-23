@@ -1,0 +1,43 @@
+    1  
+    2  cal
+    3  useradd majeed
+    4  yum install man
+    5  history
+    6  useradd Ali -e "2025-01-01"
+    7  passwd Ali
+    8  useradd Salem -e "2025-01-01"
+    9* passwd
+   10  useradd Sara -e "2025-01-01"
+   11  passwd Sara
+   12  useradd Deem -e "2025-01-01"
+   13  passwd Deem
+   14  useradd Hanan -e "2025-01-01"
+   15  passwd Hanan
+   16  useradd Naif -e "2025-01-01"
+   17  passwd Naif
+   18  useradd Norah -e "2025-01-01"
+   19  passwd Norah
+   20  useradd Khaled -e "2025-01-01"
+   21  passwd Khaled
+   22  for group in CEO Managaer HR Shipping Sales ;do groupadd -r ${group};done
+   23  cat /etc/group
+   24  gpasswd -M Ali CEO
+   25  gpasswd -M Salem Manager
+   26  for group in CEO Manager HR Shipping Sales ;do groupadd -r ${group};done
+   27  gpasswd -M Salem Manager
+   28  gpasswd -M Salem,Norah,Deem HR
+   29  gpasswd -M Sara,Naif Shipping
+   30  gpasswd -M Hanan,Khaled Sales
+   31  cat /etc/users
+   32  cat /etc/passwd
+   33  cat /etc/group
+   34  groupdel Managaer
+   35  cat /etc/passwd
+   36  gpasswd CEO
+   37  gpasswd Manager
+   38  gpasswd HR
+   39  gpasswd Shipping
+   40  gpasswd Sales
+   41  cat /etc/passwd
+   42  cat /etc/group
+   43  history>histor_for_usersAndGroupLab.txt
