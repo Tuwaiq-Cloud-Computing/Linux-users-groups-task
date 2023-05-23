@@ -1,0 +1,58 @@
+    1  exit
+    2  passwd 
+    3  su - d7
+    4  exit
+    5  su -
+    6  exit
+    7  su -
+    8  exit
+    9  adduser Ali -c "CEO"
+   10  cd /
+   11  tail etc/passwd
+   12  passwd Ali
+   13  adduser Salem -e 2025-01-01 -c "HR, Manager"
+   14  passwd Salem
+   15  adduser Sara -e 2025-01-01 -c "Shipping"
+   16  passwd Sara
+   17  adduser Deem -e 2025-01-01 -c "HR Specialist"
+   18  passwd Deem
+   19  adduser Hanan -e 2025-01-01 -c "Sales representive"
+   20  Passwd Hanan
+   21  passwd Hanan
+   22  adduser Naif -e 2025-01-01 -c "Shipping"
+   23  passwd Naif
+   24  adduser Norah -e 2025-01-01 -c "HR"
+   25  passwd Norah
+   26  adduser Khaled -e 2025-01-01 -c "Sales representive"
+   27  passwd Khaled
+   28  addgruop CEO
+   29  groupadd CEO -a Ali
+   30  groupadd CEO
+   31  group etc/group
+   32  cat etc/group
+   33  groupmod -a Ali
+   34  passwd CEO
+   35  usermod -aG CEO
+   36  usermod Ali -aG CEO
+   37  group Manager
+   38  groupadd Manager
+   39  groupadd HR
+   40  groupadd Shipping
+   41  groupadd Sales
+   42  usermod Salem -aG Manager
+   43  usermod HR -M Salem,Norah,Deem
+   44  groupadd -M Salem,Norah,Deem
+   45  usermod Salem -aG HR
+   46  usermod Norah -aG HR
+   47  usermod Deem -aG HR
+   48  usermod Sara -aG Shipping
+   49  usermod Naif -aG Shipping
+   50  usermod Hanan -aG Sales
+   51  usermod Khaled -aG Sales
+   52  tail -n 5 etc/group
+   53  groupmod CEO -p Alibabastudent001
+   54  groupmod HR -p Alibabastudent001
+   55  groupmod Sales -p Alibabastudent001
+   56  tail -n 8 etc/shadow
+   57  tail -n 8 etc/passwd
+   58  history >> history.txt
