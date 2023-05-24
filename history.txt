@@ -1,0 +1,66 @@
+    1  mkdir Groups 
+    2  useradd Ali
+    3  useradd Salem
+    4  useradd Sara
+    5  useradd Deem
+    6  useradd Hanan
+    7  useradd Naif
+    8  useradd Norah
+    9  useradd Khaled
+   10  usermod -c 'CEO' Ali
+   11  usermod -c 'Hr,Manager' Salem
+   12  usermod -c 'Shipping' Sara
+   13  usermod -c 'HR Specialit' Deem
+   14  usermod -c 'Sales represenative' Hanan
+   15  usermod -c 'Shipping' Naif
+   16  usermod -c 'HR' Norah
+   17  usermod -c 'sales representative' Khaled
+   18  passwd Ali
+   19* 
+   20  passwd Ali
+   21  yum install man 
+   22  cd /etc/yum.repos.d/
+   23  sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+   24  sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+   25  yum update -y
+   26  cd ..
+   27  cd Groups
+   28  ls
+   29  cat /etc/passwd
+   30  cd Groups
+   31  passwd Ali
+   32  yum install passwd
+   33  passwd Ali
+   34  passwd Salem
+   35  passwd Sara
+   36  passwd Deem
+   37  passwd Hanan
+   38  passwd Naif
+   39  passwd Norah
+   40  passwd Khaled
+   41  chage -E 2025-01-01 Ali
+   42  chage -E 2025-01-01 Salem
+   43  chage -E 2025-01-01 Sara
+   44  chage -E 2025-01-01 Deem
+   45  chage -E 2025-01-01 Hanan
+   46   chage -E 2025-01-01 Naif
+   47  chage -E 2025-01-01 Norah
+   48  chage -E 2025-01-01 Khaled
+   49  groupadd  CEO 
+   50  groupadd  Manager
+   51  groupadd  HR
+   52  groupadd  Shipping
+   53  groupadd  Sales
+   54  gpasswd CEO
+   55  gpasswd HR
+   56  gpasswd Sales
+   57  gpasswd -a Ali CEO
+   58  gpasswd -a Salem Manager
+   59  gpasswd -M Salem,Norah,Deem  HR
+   60  gpasswd -M Sara,Naif Shipping
+   61  gpasswd -M Hanan,Khaled Sales
+   62  cat /etc/passwd
+   63  cat /etc/shadow
+   64   cat /etc/group
+   65  history 1> history.txt
+   66  history
