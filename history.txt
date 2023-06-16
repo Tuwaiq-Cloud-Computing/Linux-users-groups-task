@@ -1,0 +1,64 @@
+  useradd ali
+   19  passwd ali
+   20  usermod -c "CEO" -d "/home/ali" -m ali
+   21  useradd salem
+   22  passwd salem
+   23  usermod -c "HR, Manager" -d "/home/salem" -m salem -e 2025-01-01
+   24  useradd sara
+   25  passwd sara
+   26  usermod -c "Shipping" -d "/home/sara" -m sara -e 2025-01-01
+   27  useradd deem
+   28  passwd deem
+   29  usermod -c "HR Specialist" -d "/home/deem" -m deem -e 2025-01-01
+   30  useradd hanan
+   31  passwd hanan
+   32  usermod -c "Sales representative" -d "/home/hanan" -m hanan -e 2025-01-01
+   33  useradd naif
+   34  passwd naif
+   35  usermod -c "Shipping" -d "/home/naif" -m naif -e 2025-01-01
+   36  useradd norah
+   37  passwd norah
+   38  usermod -c "HR" -d "/home/norah" -m norah -e 2025-01-01
+   39  useradd khaled
+   40  passwd khaled
+   41  usermod -c "Sales representative" -d "/home/khaled" -m khaled -e 2025-01-01
+   42  groupadd CEO
+   43  groupadd HR
+   44  groupadd SALES
+   45  groupadd SHIPPING
+   46  groupadd ADMIN
+   47  usermod -aG CEO ali
+   48  usermod -aG HR salem
+   49  usermod -aG HR deem
+   50  usermod -aG SALES hanan
+   51  usermod -aG SALES naif
+   52  usermod -aG SHIPPING khaled
+   53  usermod -p Alibabastudent001 CEO
+   54  usermod -p Alibabastudent001 HR
+   55  usermod -p Alibabastudent001 SALES
+   56  usermod -aG CEO ali
+   57  usermod -aG Manager salem
+   58  usermod -aG HR salem deem norah
+   59  usermod -aG Shipping sara naif
+   60  usermod -aG Sales hanan khaled
+   61  groupadd Manager
+   62  usermod -aG CEO ali
+   63  usermod -aG Manager salem
+   64  usermod -aG HR salem deem norah
+   65  usermod -aG Shipping sara naif
+   66  usermod -aG Sales hanan khaled
+   67  groupadd Shipping
+   68  groupadd CEO
+   69  groupadd Manager
+   70  groupadd HR
+   71  groupadd Shipping
+   72  groupadd Sales
+   73  usermod -aG CEO ali
+   74  usermod -aG Manager salem
+   75  usermod -aG HR salem deem norah
+   76  usermod -aG Shipping sara naif
+   77  usermod -aG Sales hanan khaled
+   78  cat /etc/passwd
+   79  cat /etc/shadow
+   80  /etc/group
+   81  cat /etc/group
