@@ -12,5 +12,5 @@
 
 ## Submission:
 
-After finishing the lab take screen shots of the /etc/passwd & /etc/shadow & /etc/group. Then save history output to a file and then upload the three pictures and the text file to the forked repo and then create a pull request. 
+After finishing the lab take screen shots of the `/etc/passwd & /etc/shadow & /etc/group`. Then take screen shot of `history` output. Then upload the 4 pictures to the forked repo and then create a pull request. 
 
