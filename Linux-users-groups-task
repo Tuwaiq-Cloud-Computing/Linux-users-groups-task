@@ -1,0 +1,350 @@
+Last login: Wed Oct 25 11:41:28 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro:~ anwar$  docker start -ai tuwaiq-centos 
+[root@b3844c32e4d5 /]# whoami
+root
+[root@b3844c32e4d5 /]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+unbound:x:998:996:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+[root@b3844c32e4d5 /]# useradd nwar
+[root@b3844c32e4d5 /]# passwd nwar -l
+Locking password for user nwar.
+passwd: Success
+[root@b3844c32e4d5 /]# passwd nwar 
+Changing password for user nwar.
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+[root@b3844c32e4d5 /]# useradd Ali
+[root@b3844c32e4d5 /]# useradd Salem
+[root@b3844c32e4d5 /]# useradd Sara
+[root@b3844c32e4d5 /]# useradd Deem
+[root@b3844c32e4d5 /]# useradd Hanan
+[root@b3844c32e4d5 /]# useradd Naif
+[root@b3844c32e4d5 /]# useradd Norah
+[root@b3844c32e4d5 /]# usermod -C "CEO" -P "alibaba@s1" -e "2025-01-01" Ali
+usermod: invalid option -- 'C'
+Usage: usermod [options] LOGIN
+
+Options:
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory for the user account
+  -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -f, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary group
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -h, --help                    display this help message and exit
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home directory to the
+                                new location (use only with -d)
+  -o, --non-unique              allow using duplicate (non-unique) UID
+  -p, --password PASSWORD       use encrypted password for the new password
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             new login shell for the user account
+  -u, --uid UID                 new UID for the user account
+  -U, --unlock                  unlock the user account
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+
+[root@b3844c32e4d5 /]# usermod -c "CEO" -p "alibaba@s1" -e "2025-01-01" Ali
+[root@b3844c32e4d5 /]# usermod -c "HR,Manager" -p "alibaba@s1" -e "2025-01-01" Salem
+[root@b3844c32e4d5 /]# usermod -c "Shipping" -p "alibaba@s1" -e "2025-01-01" Sara
+[root@b3844c32e4d5 /]# usermod -c "HR Specialist" -p "alibaba@s1" -e "2025-01-01" Deem
+[root@b3844c32e4d5 /]# usermod -c "Sales representative" -p "alibaba@s1" -e "2025-01-01" Hanan
+[root@b3844c32e4d5 /]# usermod -c "Shipping" -p "alibaba@s1" -e "2025-01-01" Naif
+[root@b3844c32e4d5 /]# usermod -c "HR" -p "alibaba@s1" -e "2025-01-01" Norah
+[root@b3844c32e4d5 /]# usermod -c "Sales representative" -p "alibaba@s1" -e "2025-01-01" Khaled
+[root@b3844c32e4d5 /]# tail -n /etc/passwd
+tail: invalid number of lines: ‘/etc/passwd’
+[root@b3844c32e4d5 /]# tail -n 8 /etc/passwd
+Ali:x:1001:1001:CEO:/home/Ali:/bin/bash
+Salem:x:1002:1002:HR,Manager:/home/Salem:/bin/bash
+Sara:x:1003:1003:Shipping:/home/Sara:/bin/bash
+Deem:x:1004:1004:HR Specialist:/home/Deem:/bin/bash
+Hanan:x:1005:1005:Sales representative:/home/Hanan:/bin/bash
+Naif:x:1006:1006:Shipping:/home/Naif:/bin/bash
+Norah:x:1007:1007:HR:/home/Norah:/bin/bash
+Khaled:x:1008:1008:Sales representative:/home/Khaled:/bin/bash
+[root@b3844c32e4d5 /]# sudo groupadd CEO
+[root@b3844c32e4d5 /]# sudo usermod Ali-aG CEO
+Usage: usermod [options] LOGIN
+
+Options:
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory for the user account
+  -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -f, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary group
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -h, --help                    display this help message and exit
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home directory to the
+                                new location (use only with -d)
+  -o, --non-unique              allow using duplicate (non-unique) UID
+  -p, --password PASSWORD       use encrypted password for the new password
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             new login shell for the user account
+  -u, --uid UID                 new UID for the user account
+  -U, --unlock                  unlock the user account
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+
+[root@b3844c32e4d5 /]# sudo usermod Ali -aG CEO
+[root@b3844c32e4d5 /]# sudo groupadd Manager
+[root@b3844c32e4d5 /]# sudo usermod Salem -aG Manager
+[root@b3844c32e4d5 /]# sudo groupadd HR 
+[root@b3844c32e4d5 /]# sudo usermod Salem,Norah,Deem -aG HR
+usermod: user 'Salem,Norah,Deem' does not exist
+[root@b3844c32e4d5 /]# sudo usermod Salem , Norah , Deem -aG HR
+Usage: usermod [options] LOGIN
+
+Options:
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory for the user account
+  -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -f, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary group
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -h, --help                    display this help message and exit
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home directory to the
+                                new location (use only with -d)
+  -o, --non-unique              allow using duplicate (non-unique) UID
+  -p, --password PASSWORD       use encrypted password for the new password
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             new login shell for the user account
+  -u, --uid UID                 new UID for the user account
+  -U, --unlock                  unlock the user account
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+
+[root@b3844c32e4d5 /]# sudo usermod Salem, Norah, Deem -aG HR
+Usage: usermod [options] LOGIN
+
+Options:
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory for the user account
+  -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -f, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary group
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -h, --help                    display this help message and exit
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home directory to the
+                                new location (use only with -d)
+  -o, --non-unique              allow using duplicate (non-unique) UID
+  -p, --password PASSWORD       use encrypted password for the new password
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             new login shell for the user account
+  -u, --uid UID                 new UID for the user account
+  -U, --unlock                  unlock the user account
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+
+[root@b3844c32e4d5 /]# sudo usermod Salem -aG HR
+[root@b3844c32e4d5 /]# sudo usermod Norah -aG HR
+[root@b3844c32e4d5 /]# sudo usermod Deem -aG HR
+[root@b3844c32e4d5 /]# sudo groupadd Shipping
+[root@b3844c32e4d5 /]# sudo usermod Sara -aG Shipping
+[root@b3844c32e4d5 /]# sudo usermod Naif -aG Shipping
+[root@b3844c32e4d5 /]# sudo groupadd Sales 
+[root@b3844c32e4d5 /]# sudo usermod Hanan -aG Sales
+[root@b3844c32e4d5 /]# sudo usermod Khaled -aG Sales
+[root@b3844c32e4d5 /]# tail -n /etc/passwd
+tail: invalid number of lines: ‘/etc/passwd’
+[root@b3844c32e4d5 /]# tail -n 8 /etc/passwd
+Ali:x:1001:1001:CEO:/home/Ali:/bin/bash
+Salem:x:1002:1002:HR,Manager:/home/Salem:/bin/bash
+Sara:x:1003:1003:Shipping:/home/Sara:/bin/bash
+Deem:x:1004:1004:HR Specialist:/home/Deem:/bin/bash
+Hanan:x:1005:1005:Sales representative:/home/Hanan:/bin/bash
+Naif:x:1006:1006:Shipping:/home/Naif:/bin/bash
+Norah:x:1007:1007:HR:/home/Norah:/bin/bash
+Khaled:x:1008:1008:Sales representative:/home/Khaled:/bin/bash
+[root@b3844c32e4d5 /]# tail -n 8 /etc/shadow
+Ali:alibaba@s1:19655:0:99999:7::20089:
+Salem:alibaba@s1:19655:0:99999:7::20089:
+Sara:alibaba@s1:19655:0:99999:7::20089:
+Deem:alibaba@s1:19655:0:99999:7::20089:
+Hanan:alibaba@s1:19655:0:99999:7::20089:
+Naif:alibaba@s1:19655:0:99999:7::20089:
+Norah:alibaba@s1:19655:0:99999:7::20089:
+Khaled:alibaba@s1:19655:0:99999:7::20089:
+[root@b3844c32e4d5 /]# tail -n 8 /etc/group
+Naif:x:1006:
+Norah:x:1007:
+Khaled:x:1008:
+CEO:x:1009:Ali
+Manager:x:1010:Salem
+HR:x:1011:Salem,Norah,Deem
+Shipping:x:1012:Sara,Naif
+Sales:x:1013:Hanan,Khaled
+[root@b3844c32e4d5 /]# history
+    1  clear
+    2  exit
+    3  ls
+    4  yum update
+    5  ping google.com
+    6  cd /etc/yum.repos.d/
+    7  sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
+    8  sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
+    9  yum update -y
+   10  clear
+   11  ls
+   12  cd ~
+   13  ls
+   14  pwd
+   15  ls
+   16  cd ..
+   17  ls
+   18  cd usr
+   19  ls
+   20  cd ..
+   21  cd home/
+   22  ls
+   23  cd ~
+   24  useradd a
+   25  su -a a
+   26  su a
+   27  ls
+   28  claer
+   29  passwd root
+   30  yum install sudo passwd
+   31  ls
+   32  passwd root
+   33  ls
+   34  userdel -r a
+   35  ls
+   36  clear
+   37  exit
+   38  yum install vim man nano zip
+   39  yum install crontabs
+   40  yum install stress
+   41  yum install stress
+   42  sudo yum install -y epel-release
+   43  sudo yum install -y stress
+   44  clearls
+   45  ls
+   46  exit
+   47  man man
+   48  exit
+   49  whoami
+   50  hostname
+   51  history
+   52  ls
+   53  uptime
+   54  TZ=Asia/Dubi date
+   55  TZ=Asia/Dubai date
+   56  touch calender.text
+   57  ls
+   58  touch calender.txt
+   59  ls
+   60  cal 1> cal
+   61  cal
+   62  cal 1> calender.txt
+   63  echos “Oh there is an error”
+   64  echos “Oh there is an error” 2> logs.txt
+   65  sudo head
+   66  whoami
+   67  cat /etc/passwd
+   68  useradd nwar
+   69  passwd nwar -l
+   70  passwd nwar 
+   71  useradd Ali
+   72  useradd Salem
+   73  useradd Sara
+   74  useradd Deem
+   75  useradd Hanan
+   76  useradd Naif
+   77  useradd Norah
+   78  useradd Khaled
+   79  usermod -C "CEO" -P "alibaba@s1" -e "2025-01-01" Ali
+   80  usermod -c "CEO" -p "alibaba@s1" -e "2025-01-01" Ali
+   81  usermod -c "HR,Manager" -p "alibaba@s1" -e "2025-01-01" Salem
+   82  usermod -c "Shipping" -p "alibaba@s1" -e "2025-01-01" Sara
+   83  usermod -c "HR Specialist" -p "alibaba@s1" -e "2025-01-01" Deem
+   84  usermod -c "Sales representative" -p "alibaba@s1" -e "2025-01-01" Hanan
+   85  usermod -c "Shipping" -p "alibaba@s1" -e "2025-01-01" Naif
+   86  usermod -c "HR" -p "alibaba@s1" -e "2025-01-01" Norah
+   87  usermod -c "Sales representative" -p "alibaba@s1" -e "2025-01-01" Khaled
+   88  tail -n /etc/passwd
+   89  tail -n 8 /etc/passwd
+   90  sudo groupadd CEO
+   91  sudo usermod Ali-aG CEO
+   92* 
+   93  sudo groupadd Manager
+   94  sudo usermod Salem -aG Manager
+   95  sudo groupadd HR 
+   96  sudo usermod Salem,Norah,Deem -aG HR
+   97  sudo usermod Salem , Norah , Deem -aG HR
+   98  sudo usermod Salem, Norah, Deem -aG HR
+   99  sudo usermod Salem -aG HR
+  100  sudo usermod Norah -aG HR
+  101  sudo usermod Deem -aG HR
+  102  sudo groupadd Shipping
+  103  sudo usermod Sara -aG Shipping
+  104  sudo usermod Naif -aG Shipping
+  105  sudo groupadd Sales 
+  106  sudo usermod Hanan -aG Sales
+  107  sudo usermod Khaled -aG Sales
+  108  tail -n /etc/passwd
+  109  tail -n 8 /etc/passwd
+  110  tail -n 8 /etc/shadow
+  111  tail -n 8 /etc/group
+  112  history
+[root@b3844c32e4d5 /]# 
